@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://SamyShaawat.github.io/portfolio",
+  "homepage": "https://SamyShaawat.github.io",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.1.0",

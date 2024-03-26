@@ -47,11 +47,7 @@ export const skills = [
           "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
       },
 
-      {
-        name: "Flutter",
-        image:
-          "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
-      },
+
     ],
   },
   {
@@ -99,7 +95,7 @@ export const skills = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
       },
       {
-        name: "Tenserflow",
+        name: "TensorFlow",
         image:
           "https://static-00.iconduck.com/assets.00/tensorflow-icon-1911x2048-1m2s54vn.png",
       },
@@ -113,6 +109,17 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1767px-Jupyter_logo.svg.png",
       },
+      {
+        name: "Kaggle",
+        image:
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-8e3af.appspot.com/o/kaggle2.png?alt=media&token=754d9f1e-9b06-45ce-af37-a9b1b3c223b8",
+      },
+      {
+        name: "PyTorch",
+        image:
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-8e3af.appspot.com/o/640px-PyTorch_logo_icon.svg.png?alt=media&token=00db73e3-4ca3-4ac4-a99b-5690ce62d83e",
+      },
+
 
     ],
   },
@@ -140,6 +147,14 @@ export const skills = [
         image:
           "https://static-00.iconduck.com/assets.00/postman-icon-497x512-beb7sy75.png",
       },
+      {
+        name: "C",
+        image: "https://firebasestorage.googleapis.com/v0/b/portfolio-8e3af.appspot.com/o/C_Logo.png?alt=media&token=945fcf64-321c-4818-8008-0380ef11edf0",
+      },
+      {
+        name: "C++",
+        image: "https://firebasestorage.googleapis.com/v0/b/portfolio-8e3af.appspot.com/o/c%2B%2B.png?alt=media&token=6f1739a0-904e-411d-8fcb-be159174f40d",
+      },
     ],
   },
 ];
@@ -147,136 +162,76 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
-    role: "Frontend Engineer Intern",
-    company: "Neurobit",
-    date: "June 2023 - Nov 2023",
-    desc: "Enhanced user experiences on Neurobit PSG & Hybrid, Portals by resolving bugs & reduced load time by 40%. Built Neurobit Analytics portal using React Js with seamless interaction of REST APIs using AXIOS optimized with React Query. Refactored previous code to TypeScript, updated with new dependency and integrated Vite with Jest for Unit Testing.",
+    img: "https://firebasestorage.googleapis.com/v0/b/portfolio-8e3af.appspot.com/o/NTI.jpg?alt=media&token=99036be3-9737-44c4-8c27-902d50552eb7",
+    role: "Frontend Developer Intern",
+    company: "NTI - National Telecommunication Institute",
+    date: "Oct 2023 - Nov 2023",
+    desc: "• Gained practical experience working with HTML5, CSS3, and JavaScript, focusing on creating web pages that are responsive and adapt seamlessly across various devices. Throughout my internship, I engaged in hands-on tasks using Bootstrap to enhance interactivity and user-friendliness, allowing me to develop a strong foundation in web development principles and responsive design techniques. This experience has equipped me with the skills necessary to tackle a wide range of web development projects.",
     skills: [
-      "ReactJS",
-      "Redux",
-      "NodeJs",
-      "Material UI",
       "HTML",
       "CSS",
       "JavaScript",
+      "Bootstrap",
     ],
     doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Screenshot%20from%202024-01-25%2022-38-31.png?alt=media&token=2785903f-1a4e-41f5-afd2-6adcfe56d058",
   },
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: "DevOps & Fullstack Engineering Intern",
-    company: "Flipr Inovations Pvt. Ltd.",
-    date: "Aug 2023 - Oct 2023",
-    desc: "Built Flipr Connect Platforms using React Js integrated GraphQL with AXIOS, created High level Design and Figma design. Built Backend with GraphQL and Node JS and connected with MongoDb - Reducing API calls by 20%. Dockerized and automated with Kubernetes & Jenkins CI/CD deployed in AWS-EC2 added Prometheus & Grafana for monitoring.",
+    img: "https://firebasestorage.googleapis.com/v0/b/portfolio-8e3af.appspot.com/o/ALX.jpg?alt=media&token=4699135e-7825-4ac0-b0b8-b4e0e2567609",
+    role: "Machine Learning Intern",
+    company: "Summer Training at Alexandria University - Under Supervision of Prof. Marwan Torki",
+    date: "Jul 2023 - Sep 2023",
+    desc: "• Completed the entire Deep Learning Specialization offered by Coursera, encompassing five comprehensive courses that provided me with an in-depth understanding of deep learning fundamentals, neural networks, and machine learning projects. In addition to this achievement, I successfully participated in the Ultrasound Nerve Segmentation competition on Kaggle, where the challenge was to accurately identify nerve structures in ultrasound images of the neck. This experience not only honed my deep learning skills but also demonstrated my ability to apply theoretical knowledge to real-world medical imaging problems, showcasing my proficiency in both learning and applying advanced AI techniques.",
     skills: [
-      "Docker",
-      "Terraform",
-      "AWS",
-      "EC2",
-      "Portainer",
-      "Nginx",
-      "JavaScript",
-      "TypeScript",
-      "Node Js",
-      " Next Js",
+      "Python",
+      "TensorFlow",
+      "PyTorch",
+      "Kaggle",
+      "Keras",
+      "Machine Learning",
+      "Deep Learning",
     ],
     doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1696514649120.jpeg?alt=media&token=e7f6757b-edfa-4138-a692-d6709eeef3e2",
   },
   {
     id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Rudraksha.jpeg?alt=media&token=8f83f41e-d0a1-486f-9c7f-dd4cd1d09e8d",
-    role: "Android Developer Intern",
-    company: "Rudraksha Welffare Foundation",
-    date: "June 2021 - Oct 2021",
-    desc: "• Built RudraShakti - Astrologer App, with MVVM Architecture using Java and Android Studio integrating Firebase SDK. Created One to One video call integration with Socket.IO and Firebase cloud functions and integrated with Retrofit. Created Low Level Design and converted Figma design to XML code.",
+    img: "https://firebasestorage.googleapis.com/v0/b/portfolio-8e3af.appspot.com/o/smart_system_logo.jpg?alt=media&token=abdc8213-96bb-4658-bd43-35271621b738",
+    role: "Software Engineer Intern",
+    company: "Smart System - IT Company",
+    date: "Jul 2022 - Sep 2022",
+    desc: "• Gained expertise in the installation, implementation, and design of Entity-Relationship Diagrams (ERD) using IBM Cognos Framework Manager. I also acquired practical skills in using IBM Maximo for Enterprise Asset Management (EAM), which further enhanced my understanding of asset management systems. Additionally, I was trained on IBM Cognos Analytics 11.0, focusing on data modeling and crafting SQL-based queries. This comprehensive training was complemented by my collaboration with a team on developing analytics reports for the Holding Company of Water and Wastewater (HCWW) project, where I applied my newly acquired skills to contribute effectively to the team's objectives and deliver actionable insights through data analysis.",
     skills: [
-      "Android",
-      "Java",
-      "Kotlin",
-      "XML",
-      "Node Js",
-      "Cloud Firestore",
-      "Firebase",
-      "Figma",
+      "IBM Cognos Analytics",
+      "IBM Maximo",
+      "Database Management",
+      "SQL",
+      "Entity-Relationship Diagrams - ERD",
     ],
     doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
   },
-  {
-    id: 3,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: "Fullstack Externship",
-    company: "Flipr",
-    date: "June 2023 - July 2023",
-    desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
-    skills: [
-      "ReactJS",
-      "Redux",
-      "NodeJs",
-      "Material UI",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Docker",
-      "AWS",
-      "MongoDB",
-    ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1691181448873.jpeg?alt=media&token=ee85eb8f-7247-43cd-9a1d-ce9f58ea62a6",
-  },
-  {
-    id: 4,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/gdsc.jpeg?alt=media&token=c162329c-efaa-4be8-a173-8d3f4c48ea70",
-    role: "Android Developer",
-    company: "DSC KIIT",
-    date: "Nov2021 - Present",
-    desc: "As an Android developer at the Google Developers Student Club (GDCS), I have had the opportunity to work on exciting projects and collaborate with talented developers who share my passion for technology. Through my involvement with GDCS, I have also had the opportunity to host and participate in numerous events, including hackathons, study jams, and workshops.",
-    skills: [
-      "Leadership",
-      "Mobile Application Development",
-      "Kotlin",
-      "XML",
-      "Figma",
-    ],
-  },
-  {
-    id: 5,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
-    role: "Open Source Contributor ",
-    company: "GirlScript Summer of Code",
-    date: "May 2023 - Present",
-    desc: "Contributed to different open-source projects and learn from industry experts",
-  },
+
 ];
 
 export const education = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
-    school: "Kalinga Institute of Industrial Technology, Bhubaneswar",
-    date: "Oct 2021 - Sep 2025",
-    grade: "8.41 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
-    degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+    img: "https://firebasestorage.googleapis.com/v0/b/portfolio-8e3af.appspot.com/o/ejust.png?alt=media&token=4cbd9858-4ac8-40dc-869b-bdce770125c0",
+    school: "Egypt-Japan University of Science and Technology, Alexandria, Egypt",
+    date: "Sep 2019 - Feb 2024",
+    grade: " 3.02 / 4.00 GPA (Very Good)",
+    desc: "I am a recent graduate in Computer Science and Engineering (CSE) from the Egypt-Japan University of Science and Technology (E-JUST) in 2024 have a GPA of 3.02. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
+    degree: "Bachelor of Sciences - B.Sc, Computer Science and Engineering",
   },
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-    school: "Methodist School, Dankuni",
-    date: "Apr 2019 - Apr 2025",
-    grade: "88.2%",
-    desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
-    degree: "ISC(XII), Science with Computer",
+    img: "https://firebasestorage.googleapis.com/v0/b/portfolio-8e3af.appspot.com/o/victory_college-removebg-preview.png?alt=media&token=12af3636-acca-424c-8ab7-275aac8c0d62",
+    school: "Victoria College, Alexandria, Egypt",
+    date: "Sep 2005 - Aug 2019",
+    grade: " 93.9%",
+    desc: "I completed my high school education at Victoria College in Alexandria, Egypt, where I concentrated on Mathematics, finishing my entire school journey at this school. I graduated with grade of 93.9%.",
+    degree: "General Certificate of Secondary Education -GCSE, Mathematics Division",
   },
-  {
-    id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-    school: "Methodist School, Dankuni",
-    date: "Apr 2017 - Apr 2019",
-    grade: "92.3%",
-    desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
-    degree: "ICSC(X), Science with Computer",
-  },
+
 ];
 
 export const projects = [
