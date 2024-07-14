@@ -5,6 +5,7 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/X";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
 const FooterContainer = styled.div`
   width: 100%;
@@ -108,6 +109,9 @@ const Footer = () => {
           </SocialMediaIcon>
           <SocialMediaIcon href={Bio.insta} target="display">
             <InstagramIcon />
+          </SocialMediaIcon>
+          <SocialMediaIcon href={Bio.whatsapp} target="display">
+            <WhatsAppIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>&copy; 2024 Samy Mostafa. All rights reserved.</Copyright>
