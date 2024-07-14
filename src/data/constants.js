@@ -5,7 +5,7 @@ export const Bio = {
     "Web Developer",
     "Computer Engineer",
     "Programmer",
-    
+
   ],
   description:
     "I graduated from the Egypt-Japan University of Science and Technology (E-JUST) in Computer Science and Engineering (CSE) in 2024, passionate about technology and innovation. With experience in Software Engineering, Web Development, Machine Learning, and Research, I've worked on impactful projects. I am excited to contribute to the tech industry's advancement.",
@@ -114,7 +114,7 @@ export const skills = [
       {
         name: "Jupyter",
         image:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1767px-Jupyter_logo.svg.png",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1767px-Jupyter_logo.svg.png",
       },
       {
         name: "Kaggle",
@@ -177,28 +177,54 @@ export const skills = [
 ];
 
 export const experiences = [
+
   {
     id: 0,
+    img: "https://firebasestorage.googleapis.com/v0/b/portfolio-8e3af.appspot.com/o/ejust.png?alt=media&token=4cbd9858-4ac8-40dc-869b-bdce770125c0",
+    role: "Teaching Assistant",
+    company: "Egypt-Japan University of Science and Technology - E-JUST",
+    date: "Apr 2024 - Present",
+    desc: "In my part-time role as a Teaching Assistant (TA), I navigated the dynamic realm of computer science education with passion and purpose. Guiding students through intricate concepts, from debugging code to exploring algorithmic principles, I fostered an environment where learning thrived. Grading assignments was not just about assessment but about nurturing growth through personalized feedback, ensuring each student's journey was supported and enriched. As a TA, I embraced the opportunity to empower future tech leaders, one classroom session at a time.",
+    skills: [
+      "Collaboration",
+      "Communication",
+      "Adaptability",
+      "Technical Support",
+    ],
+  },
+
+  {
+    id: 1,
+    img: "https://firebasestorage.googleapis.com/v0/b/portfolio-8e3af.appspot.com/o/digital_egypt_pioneers_initiative_depi_logo.jpg?alt=media&token=b600eb04-7184-4b49-a2ae-5116fb79fb11",
+    role: "Generative AI Intern",
+    company: "Digital Egypt Pioneers Initiative - DEPI",
+    date: "Apr 2024 - Present",
+    desc: "In this training, I dove into machine learning, deep learning, and generative AI models. I learned to use tools like MLflow and Hugging Face for managing machine learning operations. Hands-on projects included building Generative Adversarial Networks (GANs) and working with attention models for natural language processing. It was a practical journey that deepened my understanding and skills in cutting-edge data science techniques.",
+    skills: [
+      "Generative Neural Networks", "TensorFlow", "Machine Learning", "Deep Learning", "Neural Networks and Deep Learning", "Kaggle", "Keras"
+    ],
+  },
+  {
+    id: 2,
     img: "https://firebasestorage.googleapis.com/v0/b/portfolio-8e3af.appspot.com/o/NTI.jpg?alt=media&token=99036be3-9737-44c4-8c27-902d50552eb7",
     role: "Frontend Developer Intern",
     company: "NTI - National Telecommunication Institute",
     date: "Oct 2023 - Nov 2023",
-    desc: "• Gained practical experience working with HTML5, CSS3, and JavaScript, focusing on creating web pages that are responsive and adapt seamlessly across various devices. Throughout my internship, I engaged in hands-on tasks using Bootstrap to enhance interactivity and user-friendliness, allowing me to develop a strong foundation in web development principles and responsive design techniques. This experience has equipped me with the skills necessary to tackle a wide range of web development projects.",
+    desc: "During this training, I gained practical experience with HTML5, CSS3, and JavaScript, specializing in developing responsive web pages that seamlessly adapt to different devices. Using Bootstrap, I enhanced interactivity and user-friendliness, solidifying my understanding of web development principles and responsive design techniques. This training equipped me with the skills needed to confidently undertake diverse web development projects.",
     skills: [
       "HTML",
       "CSS",
       "JavaScript",
       "Bootstrap",
     ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Screenshot%20from%202024-01-25%2022-38-31.png?alt=media&token=2785903f-1a4e-41f5-afd2-6adcfe56d058",
   },
   {
-    id: 1,
+    id: 3,
     img: "https://firebasestorage.googleapis.com/v0/b/portfolio-8e3af.appspot.com/o/ALX.jpg?alt=media&token=4699135e-7825-4ac0-b0b8-b4e0e2567609",
     role: "Machine Learning Intern",
     company: "Summer Training at Alexandria University - Under Supervision of Prof. Marwan Torki",
     date: "Jul 2023 - Sep 2023",
-    desc: "• Completed the entire Deep Learning Specialization offered by Coursera, encompassing five comprehensive courses that provided me with an in-depth understanding of deep learning fundamentals, neural networks, and machine learning projects. In addition to this achievement, I successfully participated in the Ultrasound Nerve Segmentation competition on Kaggle, where the challenge was to accurately identify nerve structures in ultrasound images of the neck. This experience not only honed my deep learning skills but also demonstrated my ability to apply theoretical knowledge to real-world medical imaging problems, showcasing my proficiency in both learning and applying advanced AI techniques.",
+    desc: "During this internship, I completed the Deep Learning Specialization on Coursera, mastering fundamental concepts, neural networks, and practical machine learning applications across five comprehensive courses. Additionally, I applied this knowledge in the Ultrasound Nerve Segmentation competition on Kaggle, successfully identifying nerve structures in ultrasound images of the neck. This experience not only enhanced my deep learning skills but also demonstrated my ability to solve real-world medical imaging challenges, showcasing proficiency in both learning and applying advanced AI techniques.",
     skills: [
       "Python",
       "TensorFlow",
@@ -208,15 +234,15 @@ export const experiences = [
       "Machine Learning",
       "Deep Learning",
     ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1696514649120.jpeg?alt=media&token=e7f6757b-edfa-4138-a692-d6709eeef3e2",
+
   },
   {
-    id: 2,
+    id: 4,
     img: "https://firebasestorage.googleapis.com/v0/b/portfolio-8e3af.appspot.com/o/smart_system_logo.jpg?alt=media&token=abdc8213-96bb-4658-bd43-35271621b738",
     role: "Software Engineer Intern",
     company: "Smart System - IT Company",
     date: "Jul 2022 - Sep 2022",
-    desc: "• Gained expertise in the installation, implementation, and design of Entity-Relationship Diagrams (ERD) using IBM Cognos Framework Manager. I also acquired practical skills in using IBM Maximo for Enterprise Asset Management (EAM), which further enhanced my understanding of asset management systems. Additionally, I was trained on IBM Cognos Analytics 11.0, focusing on data modeling and crafting SQL-based queries. This comprehensive training was complemented by my collaboration with a team on developing analytics reports for the Holding Company of Water and Wastewater (HCWW) project, where I applied my newly acquired skills to contribute effectively to the team's objectives and deliver actionable insights through data analysis.",
+    desc: "During this internship, I gained hands-on expertise in designing Entity-Relationship Diagrams (ERD) using IBM Cognos Framework Manager, implementing IBM Maximo for Enterprise Asset Management (EAM), and crafting SQL-based queries with IBM Cognos Analytics 11.0. I contributed to the HCWW project by developing analytics reports that enhanced operational efficiencies and provided actionable insights, showcasing my ability to apply theoretical knowledge to real-world challenges in data management and analytics.",
     skills: [
       "IBM Cognos Analytics",
       "IBM Maximo",
@@ -224,7 +250,7 @@ export const experiences = [
       "SQL",
       "Entity-Relationship Diagrams - ERD",
     ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
+
   },
 
 ];

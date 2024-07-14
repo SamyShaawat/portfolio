@@ -7,7 +7,7 @@ import Skills from "./components/sections/Skills";
 // import StarCanvas from "./components/canvas/Stars";
 import { AnimatePresence } from "framer-motion";
 // import Education from "./components/sections/Education";
-// import Experience from "./components/sections/Experience";
+import Experience from "./components/sections/Experience";
 // import Projects from "./components/sections/Projects";
 // import Contact from "./components/sections/Contact";
 // import Footer from "./components/sections/Footer";
@@ -50,7 +50,7 @@ function App() {
               <Hero />
               <Wrapper>
                 <Skills />
-                {/* <Experience /> */}
+                <Experience />
               </Wrapper>
               {/* <Projects openModal={openModal} setOpenModal={setOpenModal} /> */}
               <Wrapper>
