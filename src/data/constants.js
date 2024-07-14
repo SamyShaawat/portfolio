@@ -262,7 +262,7 @@ export const education = [
     school: "Egypt-Japan University of Science and Technology, Alexandria, Egypt",
     date: "Sep 2019 - Feb 2024",
     grade: " 3.02 / 4.00 GPA (Very Good)",
-    desc: "I am a recent graduate in Computer Science and Engineering (CSE) from the Egypt-Japan University of Science and Technology (E-JUST) in 2024 have a GPA of 3.02. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
+    desc: "I graduated from the Egypt-Japan University of Science and Technology (E-JUST) in Computer Science and Engineering (CSE) in 2024 have a GPA of 3.02 (VeryGood). I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
     degree: "Bachelor of Sciences - B.Sc, Computer Science and Engineering",
   },
   {
