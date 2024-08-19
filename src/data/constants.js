@@ -16,7 +16,8 @@ export const Bio = {
   twitter: "https://twitter.com/SamyShaawat",
   insta: "https://www.instagram.com/samy_m0stafa/",
   facebook: "https://www.facebook.com/SamyM0stafa",
-  whatsapp: "HTTPS://wa.me/201091539396"
+  whatsapp: "https://wa.me/201091539396",
+  email: "mailto:samyshaawat@gmail.com",
 };
 
 export const skills = [

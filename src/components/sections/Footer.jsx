@@ -6,6 +6,7 @@ import TwitterIcon from "@mui/icons-material/X";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import MailIcon from "@mui/icons-material/Mail";
 
 const FooterContainer = styled.div`
   width: 100%;
@@ -98,19 +99,47 @@ const Footer = () => {
           <NavLink href="#Education">Education</NavLink>
         </Nav>
         <SocialMediaIcons>
-          <SocialMediaIcon href={Bio.facebook} target="display">
+          <SocialMediaIcon
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=samyshaawat@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <MailIcon />
+          </SocialMediaIcon>
+
+          <SocialMediaIcon
+            href={Bio.facebook}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FacebookIcon />
           </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.twitter} target="display">
+          <SocialMediaIcon
+            href={Bio.twitter}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <TwitterIcon />
           </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.linkedin} target="display">
+          <SocialMediaIcon
+            href={Bio.linkedin}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <LinkedInIcon />
           </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.insta} target="display">
+          <SocialMediaIcon
+            href={Bio.insta}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <InstagramIcon />
           </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.whatsapp} target="display">
+          <SocialMediaIcon
+            href={Bio.whatsapp}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <WhatsAppIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
