@@ -11,7 +11,7 @@ export const Bio = {
     "I graduated from the Egypt-Japan University of Science and Technology (E-JUST) in Computer Science and Engineering (CSE) in 2024, passionate about technology and innovation. With experience in Software Engineering, Web Development, Machine Learning, and Research, I've worked on impactful projects. I am excited to contribute to the tech industry's advancement.",
   github: "https://github.com/SamyShaawat",
   resume:
-    "https://drive.google.com/file/d/1j9PmAMISZUD-gSnQGyQJk9j1uQEUXJrB/view?usp=sharing",
+    "https://drive.google.com/file/d/1GUgkZcZb3PyDgdrJvW-UrvgTOZ6WrnhK/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/samyshaawat/",
   twitter: "https://twitter.com/SamyShaawat",
   insta: "https://www.instagram.com/samy_m0stafa/",
