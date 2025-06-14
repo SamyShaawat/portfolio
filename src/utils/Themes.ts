@@ -20,3 +20,20 @@ export const lightTheme = {
   card: "#FFFFFF",
   button: "#5c5b5b",
 };
+
+import "styled-components";
+
+declare module "styled-components" {
+  export interface DefaultTheme {
+    bg: string;
+    primary: string;
+    card_light: string;
+    text_primary: string;
+    text_secondary: string;
+    bgLight: string;
+    card: string;
+    button: string;
+    white: string;
+    black: string;
+  }
+}

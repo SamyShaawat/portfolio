@@ -37,5 +37,13 @@ body {
 }
 
 ::-webkit-backdrop-filter {
-  blur: 3px saturate(106%);
+  backdrop-filter: blur(3px) saturate(106%);
 }
+html {
+  scroll-behavior: smooth;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

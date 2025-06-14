@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 import { Bio } from "../../data/constants";
 import FacebookIcon from "@mui/icons-material/Facebook";
@@ -82,7 +81,7 @@ const SocialMediaIcon = styled.a`
 const Copyright = styled.p`
   margin-top: 1.5rem;
   font-size: 0.9rem;
-  color: ${({ theme }) => theme.soft2};
+  color: ${({ theme }) => theme.text_secondary};
   text-align: center;
 `;
 
@@ -143,7 +142,9 @@ const Footer = () => {
             <WhatsAppIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>&copy; 2024 Samy Mostafa. All rights reserved.</Copyright>
+        <Copyright>
+          &copy; {new Date().getFullYear()} Samy Mostafa. All rights reserved.
+        </Copyright>
       </FooterWrapper>
     </FooterContainer>
   );

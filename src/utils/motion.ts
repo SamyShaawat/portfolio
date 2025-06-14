@@ -1,6 +1,26 @@
-export const transition = { type: "spring", duration: 0.8 };
+export const transition = {
+  type: "spring" as const,
+  duration: 0.8,
+};
 
-export const slideAnimation = (direction) => {
+interface SlideAnimationProps {
+  initial: AnimationState;
+  animate: AnimationState;
+  exit: AnimationState;
+}
+
+interface AnimationState {
+  x: number;
+  y: number;
+  opacity?: number;
+  transition: typeof transition & { delay: number };
+}
+
+type SlideDirection = "left" | "right" | "up" | "down";
+
+export const slideAnimation = (
+  direction: SlideDirection
+): SlideAnimationProps => {
   return {
     initial: {
       x: direction === "left" ? -100 : direction === "right" ? 100 : 0,
@@ -41,7 +61,7 @@ export const headTextAnimation = {
   initial: { x: 100, opacity: 0 },
   animate: { x: 0, opacity: 1 },
   transition: {
-    type: "spring",
+    type: "spring" as const,
     damping: 5,
     stiffness: 40,
     restDelta: 0.001,
@@ -50,12 +70,12 @@ export const headTextAnimation = {
 };
 
 export const headContentAnimation = {
-  initial: { y: 100, opacity: 0 },
+  initial: { y: 50, opacity: 0 },
   animate: { y: 0, opacity: 1 },
   transition: {
-    type: "spring",
-    damping: 7,
-    stiffness: 30,
+    type: "spring" as const,
+    damping: 5,
+    stiffness: 40,
     restDelta: 0.001,
     duration: 0.6,
     delay: 0.2,
@@ -64,7 +84,33 @@ export const headContentAnimation = {
 };
 
 export const headContainerAnimation = {
-  initial: { x: -100, opacity: 0, transition: { ...transition, delay: 0.5 } },
-  animate: { x: 0, opacity: 1, transition: { ...transition, delay: 0 } },
-  exit: { x: -100, opacity: 0, transition: { ...transition, delay: 0 } },
+  initial: {
+    x: 0,
+    opacity: 0,
+    transition: {
+      delay: 0.2,
+      type: "tween" as const,
+      ease: "easeInOut" as const,
+      duration: 0.8,
+    },
+  },
+  animate: {
+    x: 0,
+    opacity: 1,
+    transition: {
+      delay: 0.2,
+      type: "tween" as const,
+      ease: "easeInOut" as const,
+      duration: 0.8,
+    },
+  },
+  exit: {
+    opacity: 0,
+    transition: {
+      delay: 0.2,
+      type: "tween" as const,
+      ease: "easeInOut" as const,
+      duration: 0.8,
+    },
+  },
 };
