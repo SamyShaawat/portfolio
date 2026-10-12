@@ -1,12 +1,3 @@
-import githubdetLogo from "../assets/work_logo/cm.png";
-import csprepLogo from "../assets/work_logo/cs_prep.png";
-import movierecLogo from "../assets/work_logo/movie_rec.png";
-import taskremLogo from "../assets/work_logo/task_rem.png";
-import npmLogo from "../assets/work_logo/npm.png";
-import webverLogo from "../assets/work_logo/web_dig.png";
-import cmLogo from "../assets/work_logo/cm.png";
-import imagesearchLogo from "../assets/work_logo/image_search.png";
-import removebgLogo from "../assets/work_logo/remove_bg.png";
 export interface Skill {
   name: string;
   image: string;
@@ -69,13 +60,10 @@ export const Bio = {
   roles: [
     "Teaching Assistant at EJUST",
     "Odoo Developer",
-    "Full Stack Engineer",
-    "Web Developer",
-    "Computer Engineer",
-    "Programmer",
+    "Software Engineer",
   ],
   description:
-    "I graduated from the Egypt-Japan University of Science and Technology (E-JUST) in Computer Science and Engineering (CSE) in 2024, passionate about technology and innovation. With experience in Software Engineering, Web Development, Machine Learning, and Research, I've worked on impactful projects. I am excited to contribute to the tech industry's advancement.",
+    "I graduated from the Egypt-Japan University of Science and Technology (E-JUST) in Computer Science and Engineering (CSE) in 2024. I work as a Teaching Assistant and Researcher at the university while developing Odoo-based business solutions and web applications, bridging academic knowledge with real-world software engineering.",
   github: "https://github.com/SamyShaawat",
   resume:
     "https://drive.google.com/file/d/1GgOxu1bm541_Ku9lUqDWfHPF9fRyq2o8/view?usp=sharing",
@@ -184,23 +172,19 @@ export const skills = [
       },
       {
         name: "TensorFlow",
-        image:
-          "/img/skills/tensorflow.svg",
+        image: "/img/skills/tensorflow.svg",
       },
       {
         name: "Keras",
-        image:
-          "/img/skills/keras.svg",
+        image: "/img/skills/keras.svg",
       },
       {
         name: "Jupyter",
-        image:
-          "/img/skills/jupyter.svg",
+        image: "/img/skills/jupyter.svg",
       },
       {
         name: "Kaggle",
-        image:
-          "/img/logos/kaggle2.png",
+        image: "/img/logos/kaggle2.png",
       },
       // {
       //   name: "Google Colab",
@@ -209,8 +193,7 @@ export const skills = [
       // },
       {
         name: "Sk Learn Kit",
-        image:
-          "/img/skills/sklearn.svg",
+        image: "/img/skills/sklearn.svg",
       },
       {
         name: "Pandas",
@@ -253,6 +236,10 @@ export const skills = [
       {
         name: "C++",
         image: "/img/skills/cpp.svg",
+      },
+      {
+        name: "LaTeX",
+        image: "/img/skills/latex.svg",
       },
     ],
   },
@@ -442,120 +429,197 @@ export const TimeLineData = [
 export const projects = [
   {
     id: 1,
-    title: "GitHub Profile Detective",
+    title: "FlowDesk",
     description:
-      "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions.",
-    image: githubdetLogo,
-    tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-    github:
-      "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-    webapp: "https://githubprofiledetective.netlify.app/",
-    date: "Jan 2024",
-    category: "Web App",
+      "Custom Odoo 19 module built from real client needs. It covers business operations from lead to paid invoice across CRM, Sales, Purchase, Inventory, Accounting, HR, Helpdesk and Fleet.",
+    image: "/img/projects/flowdesk.png",
+    tags: ["Odoo 19", "Python", "XML", "OOP"],
+    github: "https://github.com/SamyShaawat/flowdesk",
+    webapp: "",
+    date: "Jul 2026",
+    category: "Odoo Modules",
   },
   {
     id: 2,
-    title: "CS Prep",
+    title: "Hospital Management System",
     description:
-      "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests.",
-    image: csprepLogo,
-    tags: [
-      "React JS",
-      "Node.js",
-      "MongoDB",
-      "Express",
-      "HTML",
-      "CSS",
-      "JavaScript",
-    ],
-    github: "https://github.com/codingmastr/CSPrep",
-    webapp: "https://csprep.netlify.app/",
-    date: "Feb 2024",
-    category: "EdTech",
+      "A custom Odoo module for managing hospital operations, including patient records, appointments, and medical history.",
+    image: "/img/projects/my_hospital.png",
+    tags: ["Odoo", "Python", "XML", "OOP"],
+    github: "https://github.com/SamyShaawat/my_hospital",
+    webapp: "",
+    date: "Aug 2025",
+    category: "Odoo Modules",
   },
   {
     id: 3,
-    title: "Movie Recommendation App",
+    title: "CuraLink Dashboard",
     description:
-      "A React-based web app that provides movie recommendations based on genres, user preferences, and popular trends.",
-    image: movierecLogo,
-    tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-    github: "https://github.com/codingmastr/Movie-Recommendation-App",
-    webapp: "https://movie-recommendation-app-jet.vercel.app/",
-    date: "Dec 2023",
-    category: "Entertainment",
+      "A modern, responsive React application that provides a clean and intuitive interface for a healthcare network management system.",
+    image: "/img/projects/curalink.png",
+    tags: ["React JS", "TypeScript", "Dashboard"],
+    github: "https://github.com/SamyShaawat/curalink",
+    webapp: "https://samyshaawat.github.io/curalink/",
+    date: "Mar 2026",
+    category: "Web App",
   },
   {
     id: 4,
-    title: "Email Validator NPM Package",
+    title: "Class Tracker",
     description:
-      "An efficient and customizable NPM package for validating email addresses, built using React.js and Node.js.",
-    image: npmLogo,
-    tags: ["React JS", "Node.js", "NPM", "Validation"],
-    github: "https://github.com/codingmastr/cmtk-email-validator",
-    webapp: "https://www.npmjs.com/package/cmtk-email-validator",
-    date: "Nov 2023",
-    category: "Developer Tools",
+      "A simple and responsive Student List application built with React and TypeScript. Easily manage and display student records with a clean UI and modular code structure.",
+    image: "/img/projects/Class-Tracker.png",
+    tags: ["React JS", "TypeScript"],
+    github: "https://github.com/SamyShaawat/Class-Tracker",
+    webapp: "",
+    date: "May 2025",
+    category: "Web App",
   },
   {
     id: 5,
-    title: "Task Reminder Chrome Extension Tool",
+    title: "BCME - Marine Electronics Platform",
     description:
-      "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks.",
-    image: taskremLogo,
-    tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-    github: "https://github.com/codingmastr/Task-Reminder-Tool",
-    webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
-    date: "Oct 2023",
-    category: "Productivity",
+      "Platform for BC Marine Electronics Inc., providing GMDSS & NAVCOM services for the maritime industry, as required by ships' classification societies, recognized organizations, and flag states.",
+    image: "/img/projects/BCME.png",
+    tags: ["HTML", "CSS", "JavaScript"],
+    github: "https://github.com/SamyShaawat/BCME",
+    webapp: "https://www.img-bcme.com/",
+    date: "Mar 2024",
+    category: "Company Website",
   },
   {
     id: 6,
-    title: "Webverse Digital",
+    title: "Nofa Egypt",
     description:
-      "The official website for Webverse Digital, a creative digital marketing agency, featuring clean design and animations.",
-    image: webverLogo,
-    tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-    github: "https://github.com/codingmastr/Webverse-Digital",
-    webapp: "https://webversedigital.com/",
-    date: "Sep 2023",
+      "Website for Nofa Egypt, a wood flooring company founded in 1950 in Downtown Alexandria that emphasizes the artistry of wood flooring.",
+    image: "/img/projects/Nofa-Egypt.png",
+    tags: ["JavaScript", "Web Development"],
+    github: "https://github.com/SamyShaawat/Nofa-Egypt",
+    webapp: "https://nofaegypt.rowad.com/",
+    date: "Jul 2024",
     category: "Company Website",
   },
   {
     id: 7,
-    title: "Coding Master",
+    title: "URL Phishing Detection Using LLaMA-2",
     description:
-      "An ed-tech platform offering tech blogs, notes, interview questions, and premium content with payment integration.",
-    image: cmLogo,
-    tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-    github: "https://codingmasterweb.in/",
-    webapp: "https://codingmasterweb.in/",
-    date: "Aug 2023",
-    category: "EdTech",
+      "A URL phishing detection model built on Meta AI's LLaMA-2 large language model, identifying malicious links disguised as legitimate websites.",
+    image: "/img/projects/URL-Phishing-Detection-Using-LLaMA-2.png",
+    tags: ["Python", "LLaMA-2", "Machine Learning", "Jupyter"],
+    github:
+      "https://github.com/SamyShaawat/URL-Phishing-Detection-Using-LLaMA-2",
+    webapp: "",
+    date: "Dec 2023",
+    category: "Machine Learning",
   },
   {
     id: 8,
-    title: "Image Search App",
+    title: "Network Analysis of the Egyptian Reddit Community",
     description:
-      "A React.js-based image search app that lets users find and download high-quality images from the web using APIs.",
-    image: imagesearchLogo,
-    tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-    github: "https://github.com/codingmastr/Image-Search-App",
-    webapp: "https://imagsearch.netlify.app/",
-    date: "Jul 2023",
-    category: "WEB APP'S",
+      "Analyzes the network structure and dynamics of Reddit users who follow Egyptian subreddits, using a network built from 23,185 usernames and 105 subreddits.",
+    image:
+      "/img/projects/Network-Analysis-of-the-Egyptian-Reddit-Community.png",
+    tags: ["Python", "Network Analysis", "Data Science", "Jupyter"],
+    github:
+      "https://github.com/SamyShaawat/Network-Analysis-of-the-Egyptian-Reddit-Community",
+    webapp: "",
+    date: "May 2023",
+    category: "Machine Learning",
   },
   {
     id: 9,
-    title: "Image Background Remover",
+    title: "Saraha - Anonymous Messaging",
     description:
-      "An image processing app that allows users to remove image backgrounds and download transparent versions.",
-    image: removebgLogo,
-    tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-    github: "https://github.com/codingmastr/Image-Background-Remover",
-    webapp: "https://removeyourbg.netlify.app/",
-    date: "Jun 2023",
-    category: "WEB APP'S",
+      "An anonymous messaging platform for honest feedback and private communication. Full-stack Nx monorepo with NestJS, React, Prisma and PostgreSQL.",
+    image: "/img/projects/Saraha.png",
+    tags: ["NestJS", "React JS", "Prisma", "PostgreSQL", "Nx"],
+    github: "https://github.com/SamyShaawat/Saraha",
+    webapp: "",
+    date: "Apr 2026",
+    category: "Web App",
+  },
+  {
+    id: 10,
+    title: "Intertek Group Website",
+    description:
+      "Website for Intertek Group, built in an Nx workspace with TypeScript.",
+    image: "/img/projects/Intertek.png",
+    tags: ["TypeScript", "Nx", "React JS"],
+    github: "https://github.com/SamyShaawat/Intertek",
+    webapp: "https://intertekgroup.org/",
+    date: "Jun 2026",
+    category: "Company Website",
+  },
+  {
+    id: 11,
+    title: "Rowad for Software Development",
+    description:
+      "Website for Rowad Tech Company, which offers reliable and secure website hosting, development and deployment of responsive websites, and digital marketing strategies.",
+    image: "/img/projects/rowad-for-software-development.png",
+    tags: ["TypeScript", "Web Development"],
+    github: "https://github.com/SamyShaawat/rowad-for-software-development",
+    webapp: "https://rowad.com/",
+    date: "Jun 2024",
+    category: "Company Website",
+  },
+  {
+    id: 12,
+    title: "ClassCraft - Education Management",
+    description:
+      "An Odoo module for schools and training centers, covering enrollment to graduation in one place. Built from practice tasks written like real client requests.",
+    image: "/img/projects/classcraft.png",
+    tags: ["Odoo", "Python", "XML", "OOP"],
+    github: "https://github.com/SamyShaawat/classcraft",
+    webapp: "",
+    date: "Jul 2026",
+    category: "Odoo Modules",
+  },
+  {
+    id: 13,
+    title: "CarePulse - Clinic Management",
+    description:
+      "An Odoo module for clinics and hospitals, from patient to payment. Built from practice tasks written like real client requests.",
+    image: "/img/projects/carepulse.png",
+    tags: ["Odoo", "Python", "XML", "OOP"],
+    github: "https://github.com/SamyShaawat/carepulse",
+    webapp: "",
+    date: "Jul 2026",
+    category: "Odoo Modules",
+  },
+  {
+    id: 14,
+    title: "KeyNest - Real Estate Management",
+    description:
+      "An Odoo module for real estate agencies, from listing to closed deal. Built from practice tasks written like real client requests.",
+    image: "/img/projects/keynest.png",
+    tags: ["Odoo", "Python", "XML", "OOP"],
+    github: "https://github.com/SamyShaawat/keynest",
+    webapp: "",
+    date: "Jul 2026",
+    category: "Odoo Modules",
+  },
+  {
+    id: 15,
+    title: "Optical Shop Management System",
+    description: "An optical shop management system built with Python.",
+    image: "/img/projects/Optical-Shop-Management-System.png",
+    tags: ["Python"],
+    github: "https://github.com/SamyShaawat/Optical-Shop-Management-System",
+    webapp: "",
+    date: "Jun 2024",
+    category: "Desktop App",
+  },
+  {
+    id: 16,
+    title: "Pharmacy Management System",
+    description:
+      "A pharmacy management system built with Python and a Tkinter GUI.",
+    image: "/img/projects/Pharmacy-Management-System.png",
+    tags: ["Python", "Tkinter"],
+    github: "https://github.com/SamyShaawat/Pharmacy-Management-System",
+    webapp: "",
+    date: "Dec 2022",
+    category: "Desktop App",
   },
 ];
 
@@ -563,6 +627,6 @@ export const menuItems = [
   { id: "about", label: "About" },
   { id: "skills", label: "Skills" },
   { id: "experience", label: "Experience" },
-  // { id: "projects", label: "Projects" },
+  { id: "projects", label: "Projects" },
   { id: "education", label: "Education" },
 ];
