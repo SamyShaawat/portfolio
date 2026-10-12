@@ -557,6 +557,102 @@ export const projects = [
     date: "Jun 2023",
     category: "WEB APP'S",
   },
+  {
+    id: 10,
+    title: "FlowDesk",
+    description:
+      "Custom Odoo 19 module built from real client needs. It covers business operations from lead to paid invoice across CRM, Sales, Purchase, Inventory, Accounting, HR, Helpdesk and Fleet.",
+    image: "/img/projects/flowdesk.png",
+    tags: ["Odoo 19", "Python", "XML", "OOP"],
+    github: "https://github.com/SamyShaawat/flowdesk",
+    webapp: "",
+    date: "Jul 2026",
+    category: "Odoo Modules",
+  },
+  {
+    id: 11,
+    title: "Hospital Management System",
+    description:
+      "A custom Odoo module for managing hospital operations, including patient records, appointments, and medical history.",
+    image: "/img/projects/my_hospital.png",
+    tags: ["Odoo", "Python", "XML", "OOP"],
+    github: "https://github.com/SamyShaawat/my_hospital",
+    webapp: "",
+    date: "Aug 2025",
+    category: "Odoo Modules",
+  },
+  {
+    id: 12,
+    title: "CuraLink Dashboard",
+    description:
+      "A modern, responsive React application that provides a clean and intuitive interface for a healthcare network management system.",
+    image: "/img/projects/curalink.png",
+    tags: ["React JS", "TypeScript", "Dashboard"],
+    github: "https://github.com/SamyShaawat/curalink",
+    webapp: "https://samyshaawat.github.io/curalink/",
+    date: "Mar 2026",
+    category: "Web App",
+  },
+  {
+    id: 13,
+    title: "Class Tracker",
+    description:
+      "A simple and responsive Student List application built with React and TypeScript. Easily manage and display student records with a clean UI and modular code structure.",
+    image: "/img/projects/Class-Tracker.png",
+    tags: ["React JS", "TypeScript"],
+    github: "https://github.com/SamyShaawat/Class-Tracker",
+    webapp: "",
+    date: "May 2025",
+    category: "Web App",
+  },
+  {
+    id: 14,
+    title: "BCME - Marine Electronics Platform",
+    description:
+      "Platform for BC Marine Electronics Inc., providing GMDSS & NAVCOM services for the maritime industry, as required by ships' classification societies, recognized organizations, and flag states.",
+    image: "/img/projects/BCME.png",
+    tags: ["HTML", "CSS", "JavaScript"],
+    github: "https://github.com/SamyShaawat/BCME",
+    webapp: "https://www.img-bcme.com/",
+    date: "Mar 2024",
+    category: "Company Website",
+  },
+  {
+    id: 15,
+    title: "Nofa Egypt",
+    description:
+      "Website for Nofa Egypt, a wood flooring company founded in 1950 in Downtown Alexandria that emphasizes the artistry of wood flooring.",
+    image: "/img/projects/Nofa-Egypt.png",
+    tags: ["JavaScript", "Web Development"],
+    github: "https://github.com/SamyShaawat/Nofa-Egypt",
+    webapp: "https://nofaegypt.rowad.com/",
+    date: "Jul 2024",
+    category: "Company Website",
+  },
+  {
+    id: 16,
+    title: "URL Phishing Detection Using LLaMA-2",
+    description:
+      "A URL phishing detection model built on Meta AI's LLaMA-2 large language model, identifying malicious links disguised as legitimate websites.",
+    image: "/img/projects/URL-Phishing-Detection-Using-LLaMA-2.png",
+    tags: ["Python", "LLaMA-2", "Machine Learning", "Jupyter"],
+    github: "https://github.com/SamyShaawat/URL-Phishing-Detection-Using-LLaMA-2",
+    webapp: "",
+    date: "Dec 2023",
+    category: "Machine Learning",
+  },
+  {
+    id: 17,
+    title: "Network Analysis of the Egyptian Reddit Community",
+    description:
+      "Analyzes the network structure and dynamics of Reddit users who follow Egyptian subreddits, using a network built from 23,185 usernames and 105 subreddits.",
+    image: "/img/projects/Network-Analysis-of-the-Egyptian-Reddit-Community.png",
+    tags: ["Python", "Network Analysis", "Data Science", "Jupyter"],
+    github: "https://github.com/SamyShaawat/Network-Analysis-of-the-Egyptian-Reddit-Community",
+    webapp: "",
+    date: "May 2023",
+    category: "Machine Learning",
+  },
 ];
 
 export const menuItems = [
