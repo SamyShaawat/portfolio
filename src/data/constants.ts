@@ -58,6 +58,7 @@ export interface BioType {
   resume: string;
   linkedin: string;
   twitter: string;
+  threads: string;
   insta: string;
   facebook: string;
   whatsapp: string;
@@ -79,9 +80,10 @@ export const Bio = {
   resume:
     "https://drive.google.com/file/d/1GgOxu1bm541_Ku9lUqDWfHPF9fRyq2o8/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/samyshaawat/",
-  twitter: "https://twitter.com/SamyShaawat",
-  insta: "https://www.instagram.com/samy_m0stafa/",
-  facebook: "https://www.facebook.com/SamyM0stafa",
+  twitter: "https://x.com/Samy_M0stafa",
+  threads: "https://www.threads.com/@samyshaawat",
+  insta: "https://www.instagram.com/samyshaawat/",
+  facebook: "https://www.facebook.com/samyshaawat/",
   whatsapp: "https://wa.me/201091539396",
   email: "mailto:samyshaawat@gmail.com",
 };
@@ -273,7 +275,7 @@ export const experiences = [
     company: "Gamivize",
     date: "Oct 2025 - Aug 2026",
     desc: "Worked as a Full Stack Engineer at Gamivize, building and maintaining web application features across the frontend and backend.",
-    skills: ["Full Stack Development", "Software Development", "Prisma ORM"],
+    skills: ["Prisma", "NestJS", "TypeScript", "React Js", "PostgreSQL"],
   },
   {
     id: 2,
@@ -282,7 +284,7 @@ export const experiences = [
     company: "Diwan for Scientific Solutions",
     date: "Aug 2025 - Present",
     desc: "Developing and customizing Odoo modules for business clients at Diwan for Scientific Solutions, after starting there as an Odoo Developer Intern.",
-    skills: ["Odoo", "Python", "PostgreSQL", "CRM"],
+    skills: ["Odoo", "Python", "OOP", "XML", "Odoo OWL"],
   },
   {
     id: 3,
@@ -291,7 +293,7 @@ export const experiences = [
     company: "Diwan for Scientific Solutions",
     date: "Mar 2025 - Jul 2025",
     desc: "Internship focused on Odoo development at Diwan for Scientific Solutions, which led to a full-time Odoo Developer role.",
-    skills: ["Odoo", "Python", "PostgreSQL"],
+    skills: ["Odoo", "Python", "OOP", "XML", "Odoo OWL"],
   },
   {
     id: 4,
