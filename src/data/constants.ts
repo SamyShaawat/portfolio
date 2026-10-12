@@ -67,6 +67,8 @@ export const Bio = {
   name: "Samy Mostafa",
   roles: [
     "Teaching Assistant at EJUST",
+    "Odoo Developer",
+    "Full Stack Engineer",
     "Web Developer",
     "Computer Engineer",
     "Programmer",
@@ -90,28 +92,32 @@ export const skills = [
     skills: [
       {
         name: "React Js",
-        image: "https://skillicons.dev/icons?i=react",
+        image: "/img/skills/react.svg",
       },
 
       {
         name: "HTML",
-        image: "https://skillicons.dev/icons?i=html",
+        image: "/img/skills/html.svg",
       },
       {
         name: "CSS",
-        image: "https://skillicons.dev/icons?i=css",
+        image: "/img/skills/css.svg",
       },
       {
         name: "JavaScript",
-        image: "https://skillicons.dev/icons?i=js",
+        image: "/img/skills/js.svg",
+      },
+      {
+        name: "TypeScript",
+        image: "/img/skills/typescript.svg",
       },
       {
         name: "Bootstrap",
-        image: "https://skillicons.dev/icons?i=bootstrap",
+        image: "/img/skills/bootstrap.svg",
       },
       {
         name: "Tailwind",
-        image: "https://skillicons.dev/icons?i=tailwind",
+        image: "/img/skills/tailwind.svg",
       },
     ],
   },
@@ -120,29 +126,49 @@ export const skills = [
     skills: [
       {
         name: "Node Js",
-        image: "https://skillicons.dev/icons?i=nodejs",
+        image: "/img/skills/nodejs.svg",
       },
       {
         name: "Express Js",
-        image: "https://skillicons.dev/icons?i=expressjs",
+        image: "/img/skills/expressjs.svg",
+      },
+      {
+        name: "NestJS",
+        image: "/img/skills/nestjs.svg",
       },
       {
         name: "Python",
-        image: "https://skillicons.dev/icons?i=python",
+        image: "/img/skills/python.svg",
       },
 
       {
         name: "MySQL",
-        image: "https://skillicons.dev/icons?i=mysql",
+        image: "/img/skills/mysql.svg",
+      },
+      {
+        name: "PostgreSQL",
+        image: "/img/skills/postgresql.svg",
+      },
+      {
+        name: "Prisma",
+        image: "/img/skills/prisma.svg",
+      },
+      {
+        name: "Odoo",
+        image: "/img/skills/odoo.svg",
+      },
+      {
+        name: "SQLite",
+        image: "/img/skills/sqlite.svg",
       },
 
       {
         name: "MongoDB",
-        image: "https://skillicons.dev/icons?i=mongodb",
+        image: "/img/skills/mongodb.svg",
       },
       {
         name: "Firebase",
-        image: "https://skillicons.dev/icons?i=firebase",
+        image: "/img/skills/firebase.svg",
       },
     ],
   },
@@ -152,27 +178,27 @@ export const skills = [
     skills: [
       {
         name: "Python",
-        image: "https://skillicons.dev/icons?i=python",
+        image: "/img/skills/python.svg",
       },
       {
         name: "TensorFlow",
         image:
-          "https://static-00.iconduck.com/assets.00/tensorflow-icon-1911x2048-1m2s54vn.png",
+          "/img/skills/tensorflow.svg",
       },
       {
         name: "Keras",
         image:
-          "https://miro.medium.com/v2/resize:fit:600/1*DKu_54iqz6C-p6ndo7rO3g.png",
+          "/img/skills/keras.svg",
       },
       {
         name: "Jupyter",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1767px-Jupyter_logo.svg.png",
+          "/img/skills/jupyter.svg",
       },
       {
         name: "Kaggle",
         image:
-          "https://firebasestorage.googleapis.com/v0/b/portfolio-8e3af.appspot.com/o/kaggle2.png?alt=media&token=754d9f1e-9b06-45ce-af37-a9b1b3c223b8",
+          "/img/logos/kaggle2.png",
       },
       // {
       //   name: "Google Colab",
@@ -182,11 +208,15 @@ export const skills = [
       {
         name: "Sk Learn Kit",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/2560px-Scikit_learn_logo_small.svg.png",
+          "/img/skills/sklearn.svg",
+      },
+      {
+        name: "Pandas",
+        image: "/img/skills/pandas.svg",
       },
       {
         name: "PyTorch",
-        image: "https://skillicons.dev/icons?i=pytorch",
+        image: "/img/skills/pytorch.svg",
       },
     ],
   },
@@ -195,28 +225,32 @@ export const skills = [
     skills: [
       {
         name: "Git",
-        image: "https://skillicons.dev/icons?i=git",
+        image: "/img/skills/git.svg",
       },
       {
         name: "GitHub",
-        image: "https://skillicons.dev/icons?i=github",
+        image: "/img/skills/github.svg",
       },
 
       {
         name: "VS Code",
-        image: "https://skillicons.dev/icons?i=vscode",
+        image: "/img/skills/vscode.svg",
       },
       {
         name: "Postman",
-        image: "https://skillicons.dev/icons?i=postman",
+        image: "/img/skills/postman.svg",
+      },
+      {
+        name: "Linux",
+        image: "/img/skills/linux.svg",
       },
       {
         name: "C",
-        image: "https://skillicons.dev/icons?i=c",
+        image: "/img/skills/c.svg",
       },
       {
         name: "C++",
-        image: "https://skillicons.dev/icons?i=cpp",
+        image: "/img/skills/cpp.svg",
       },
     ],
   },
@@ -225,10 +259,73 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/portfolio-8e3af.appspot.com/o/ejust.png?alt=media&token=4cbd9858-4ac8-40dc-869b-bdce770125c0",
-    role: "Teaching Assistant",
+    img: "/img/logos/ejust.png",
+    role: "Teaching Assistant (Full-time)",
     company: "Egypt-Japan University of Science and Technology - E-JUST",
-    date: "Apr 2024 - Present",
+    date: "Oct 2025 - Present",
+    desc: "Full-time Teaching Assistant at E-JUST, supporting computer science courses by guiding students, running labs and tutorials, and grading assignments with personalized feedback.",
+    skills: ["Collaboration", "Communication", "Teaching", "Technical Support"],
+  },
+  {
+    id: 1,
+    img: "/img/logos/gamiviz.jpeg",
+    role: "Full Stack Engineer",
+    company: "Gamivize",
+    date: "Oct 2025 - Aug 2026",
+    desc: "Worked as a Full Stack Engineer at Gamivize, building and maintaining web application features across the frontend and backend.",
+    skills: ["Full Stack Development", "Software Development", "Prisma ORM"],
+  },
+  {
+    id: 2,
+    img: "/img/logos/diwan.jpeg",
+    role: "Odoo Developer",
+    company: "Diwan for Scientific Solutions",
+    date: "Aug 2025 - Present",
+    desc: "Developing and customizing Odoo modules for business clients at Diwan for Scientific Solutions, after starting there as an Odoo Developer Intern.",
+    skills: ["Odoo", "Python", "PostgreSQL", "CRM"],
+  },
+  {
+    id: 3,
+    img: "/img/logos/diwan.jpeg",
+    role: "Odoo Developer Intern",
+    company: "Diwan for Scientific Solutions",
+    date: "Mar 2025 - Jul 2025",
+    desc: "Internship focused on Odoo development at Diwan for Scientific Solutions, which led to a full-time Odoo Developer role.",
+    skills: ["Odoo", "Python", "PostgreSQL"],
+  },
+  {
+    id: 4,
+    img: "/img/logos/route.jpeg",
+    role: "Backend Developer Trainee",
+    company: "Route",
+    date: "Oct 2024 - Mar 2025",
+    desc: "Backend development training at Route, covering server-side programming, APIs and databases.",
+    skills: ["Backend Development", "Node Js", "Databases"],
+  },
+  {
+    id: 5,
+    img: "/img/logos/itida.jpeg",
+    role: "Cyber Security Trainee",
+    company: "ITIDA - Information Technology Industry Development Agency",
+    date: "Jul 2024 - Aug 2024",
+    desc: "Cyber security training program run by the Information Technology Industry Development Agency (ITIDA).",
+    skills: ["Cyber Security"],
+  },
+  {
+    id: 6,
+    img: "/img/Samy%20Shaawat.png",
+    role: "Web Developer",
+    company: "Freelancer - Self employed",
+    date: "Apr 2024 - Nov 2024",
+    desc: "Worked as a self-employed web developer, building websites and web applications for clients.",
+    skills: ["Web Development", "React Js", "JavaScript"],
+  },
+  {
+    id: 7,
+    img: "/img/logos/ejust.png",
+    role: "Teaching Assistant (Part-time)",
+    company: "Egypt-Japan University of Science and Technology - E-JUST",
+    date: "Apr 2024 - Sep 2025",
     desc: "In my part-time role as a Teaching Assistant (TA), I navigated the dynamic realm of computer science education with passion and purpose. Guiding students through intricate concepts, from debugging code to exploring algorithmic principles, I fostered an environment where learning thrived. Grading assignments was not just about assessment but about nurturing growth through personalized feedback, ensuring each student's journey was supported and enriched. As a TA, I embraced the opportunity to empower future tech leaders, one classroom session at a time.",
     skills: [
       "Collaboration",
@@ -239,11 +336,11 @@ export const experiences = [
   },
 
   {
-    id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/portfolio-8e3af.appspot.com/o/digital_egypt_pioneers_initiative_depi_logo.jpg?alt=media&token=b600eb04-7184-4b49-a2ae-5116fb79fb11",
-    role: "Generative AI Intern",
+    id: 8,
+    img: "/img/logos/digital_egypt_pioneers_initiative_depi_logo.jpg",
+    role: "Machine Learning Trainee",
     company: "Digital Egypt Pioneers Initiative - DEPI",
-    date: "Apr 2024 - Present",
+    date: "Apr 2024 - Oct 2024",
     desc: "In this training, I dove into machine learning, deep learning, and generative AI models. I learned to use tools like MLflow and Hugging Face for managing machine learning operations. Hands-on projects included building Generative Adversarial Networks (GANs) and working with attention models for natural language processing. It was a practical journey that deepened my understanding and skills in cutting-edge data science techniques.",
     skills: [
       "Generative Neural Networks",
@@ -256,8 +353,8 @@ export const experiences = [
     ],
   },
   {
-    id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/portfolio-8e3af.appspot.com/o/NTI.jpg?alt=media&token=99036be3-9737-44c4-8c27-902d50552eb7",
+    id: 9,
+    img: "/img/logos/NTI.jpg",
     role: "Frontend Developer Intern",
     company: "NTI - National Telecommunication Institute",
     date: "Oct 2023 - Nov 2023",
@@ -265,8 +362,8 @@ export const experiences = [
     skills: ["HTML", "CSS", "JavaScript", "Bootstrap"],
   },
   {
-    id: 3,
-    img: "https://firebasestorage.googleapis.com/v0/b/portfolio-8e3af.appspot.com/o/ALX.jpg?alt=media&token=4699135e-7825-4ac0-b0b8-b4e0e2567609",
+    id: 10,
+    img: "/img/logos/ALX.jpg",
     role: "Machine Learning Intern",
     company:
       "Summer Training at Alexandria University - Under Supervision of Prof. Marwan Torki",
@@ -283,11 +380,11 @@ export const experiences = [
     ],
   },
   {
-    id: 4,
-    img: "https://firebasestorage.googleapis.com/v0/b/portfolio-8e3af.appspot.com/o/smart_system_logo.jpg?alt=media&token=abdc8213-96bb-4658-bd43-35271621b738",
+    id: 11,
+    img: "/img/logos/smart_system_logo.jpg",
     role: "Software Engineer Intern",
     company: "Smart System - IT Company",
-    date: "Jul 2022 - Sep 2022",
+    date: "Jul 2022 - Oct 2022",
     desc: "During this internship, I gained hands-on expertise in designing Entity-Relationship Diagrams (ERD) using IBM Cognos Framework Manager, implementing IBM Maximo for Enterprise Asset Management (EAM), and crafting SQL-based queries with IBM Cognos Analytics 11.0. I contributed to the HCWW project by developing analytics reports that enhanced operational efficiencies and provided actionable insights, showcasing my ability to apply theoretical knowledge to real-world challenges in data management and analytics.",
     skills: [
       "IBM Cognos Analytics",
@@ -302,7 +399,17 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/portfolio-8e3af.appspot.com/o/ejust.png?alt=media&token=4cbd9858-4ac8-40dc-869b-bdce770125c0",
+    img: "/img/logos/ejust.png",
+    school:
+      "Egypt-Japan University of Science and Technology, Alexandria, Egypt",
+    date: "Sep 2025 - Present",
+    grade: " In progress",
+    desc: "Master's studies in Computer Science and Engineering at the Egypt-Japan University of Science and Technology (E-JUST).",
+    degree: "Master's degree, Computer Science and Engineering",
+  },
+  {
+    id: 1,
+    img: "/img/logos/ejust.png",
     school:
       "Egypt-Japan University of Science and Technology, Alexandria, Egypt",
     date: "Sep 2019 - Feb 2024",
@@ -311,8 +418,8 @@ export const education = [
     degree: "Bachelor of Sciences - B.Sc, Computer Science and Engineering",
   },
   {
-    id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/portfolio-8e3af.appspot.com/o/victory_college-removebg-preview.png?alt=media&token=12af3636-acca-424c-8ab7-275aac8c0d62",
+    id: 2,
+    img: "/img/logos/victory_college-removebg-preview.png",
     school: "Victoria College, Alexandria, Egypt",
     date: "Sep 2005 - Aug 2019",
     grade: " 93.9%",
@@ -332,7 +439,7 @@ export const TimeLineData = [
 
 export const projects = [
   {
-    id: 0,
+    id: 1,
     title: "GitHub Profile Detective",
     description:
       "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions.",
@@ -345,7 +452,7 @@ export const projects = [
     category: "Web App",
   },
   {
-    id: 1,
+    id: 2,
     title: "CS Prep",
     description:
       "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests.",
@@ -365,7 +472,7 @@ export const projects = [
     category: "EdTech",
   },
   {
-    id: 2,
+    id: 3,
     title: "Movie Recommendation App",
     description:
       "A React-based web app that provides movie recommendations based on genres, user preferences, and popular trends.",
@@ -377,7 +484,7 @@ export const projects = [
     category: "Entertainment",
   },
   {
-    id: 3,
+    id: 4,
     title: "Email Validator NPM Package",
     description:
       "An efficient and customizable NPM package for validating email addresses, built using React.js and Node.js.",
@@ -389,7 +496,7 @@ export const projects = [
     category: "Developer Tools",
   },
   {
-    id: 4,
+    id: 5,
     title: "Task Reminder Chrome Extension Tool",
     description:
       "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks.",
@@ -401,7 +508,7 @@ export const projects = [
     category: "Productivity",
   },
   {
-    id: 5,
+    id: 6,
     title: "Webverse Digital",
     description:
       "The official website for Webverse Digital, a creative digital marketing agency, featuring clean design and animations.",
@@ -413,7 +520,7 @@ export const projects = [
     category: "Company Website",
   },
   {
-    id: 6,
+    id: 7,
     title: "Coding Master",
     description:
       "An ed-tech platform offering tech blogs, notes, interview questions, and premium content with payment integration.",
@@ -425,7 +532,7 @@ export const projects = [
     category: "EdTech",
   },
   {
-    id: 7,
+    id: 8,
     title: "Image Search App",
     description:
       "A React.js-based image search app that lets users find and download high-quality images from the web using APIs.",
@@ -437,7 +544,7 @@ export const projects = [
     category: "WEB APP'S",
   },
   {
-    id: 8,
+    id: 9,
     title: "Image Background Remover",
     description:
       "An image processing app that allows users to remove image backgrounds and download transparent versions.",
