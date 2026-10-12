@@ -66,7 +66,7 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "I graduated from the Egypt-Japan University of Science and Technology (E-JUST) in Computer Science and Engineering (CSE) in 2024, passionate about technology and innovation. With experience in Software Engineering, Web Development, Machine Learning, and Research, I've worked on impactful projects. I am excited to contribute to the tech industry's advancement.",
+    "I graduated from the Egypt-Japan University of Science and Technology (E-JUST) in Computer Science and Engineering (CSE) in 2024. Today I work as a Teaching Assistant and Researcher at the university while developing Odoo-based business solutions and web applications, bridging academic knowledge with real-world software engineering.",
   github: "https://github.com/SamyShaawat",
   resume:
     "https://drive.google.com/file/d/1GgOxu1bm541_Ku9lUqDWfHPF9fRyq2o8/view?usp=sharing",
