@@ -313,7 +313,7 @@ export const experiences = [
   },
   {
     id: 6,
-    img: "/img/Samy%20Shaawat.png",
+    img: "/img/logos/self-emplyed.jpeg",
     role: "Web Developer",
     company: "Freelancer - Self employed",
     date: "Apr 2024 - Nov 2024",
