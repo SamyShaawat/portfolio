@@ -72,7 +72,8 @@ const HeroRightContainer = styled.div`
   }
 `;
 
-const Title = styled.div`
+const Title = styled.h1`
+  margin: 0;
   font-weight: 700;
   font-size: 50px;
   color: ${({ theme }) => theme.text_primary};
