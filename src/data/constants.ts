@@ -504,7 +504,7 @@ export const projects = [
     title: "URL Phishing Detection Using LLaMA-2",
     description:
       "A URL phishing detection model built on Meta AI's LLaMA-2 large language model, identifying malicious links disguised as legitimate websites.",
-    image: "/img/projects/URL-Phishing-Detection-Using-LLaMA-2.png",
+    image: "/img/projects/live/phishing.webp",
     tags: ["Python", "LLaMA-2", "Machine Learning", "Jupyter"],
     github:
       "https://github.com/SamyShaawat/URL-Phishing-Detection-Using-LLaMA-2",
