@@ -108,6 +108,7 @@ const Navbar: React.FC = () => {
         <div className="hidden md:flex space-x-4">
           <a
             href="https://github.com/SamyShaawat"
+            aria-label="Samy Shaawat on GitHub"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-[#8245ec]"
@@ -116,6 +117,7 @@ const Navbar: React.FC = () => {
           </a>
           <a
             href="https://www.linkedin.com/in/samyshaawat"
+            aria-label="Samy Shaawat on LinkedIn"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-[#8245ec]"
@@ -158,7 +160,8 @@ const Navbar: React.FC = () => {
             ))}
             <div className="flex space-x-4">
               <a
-                href="https://github.com/codingmastr"
+                href="https://github.com/SamyShaawat"
+              aria-label="Samy Shaawat on GitHub"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white"
@@ -166,7 +169,8 @@ const Navbar: React.FC = () => {
                 <FaGithub size={24} />
               </a>
               <a
-                href="https://www.linkedin.com/in/tarun-kaushik-553b441a4"
+                href="https://www.linkedin.com/in/samyshaawat"
+              aria-label="Samy Shaawat on LinkedIn"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white"

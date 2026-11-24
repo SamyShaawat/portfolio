@@ -53,12 +53,12 @@ const Projects = () => {
           >
             <img loading="lazy" decoding="async"
               src={project.image}
-              alt={project.title}
+              alt={`${project.title} screenshot`}
               className="w-full h-48 object-cover rounded-xl mb-4"
             />
-            <h2 className="text-xl font-semibold text-white mb-2">
+            <h3 className="text-xl font-semibold text-white mb-2">
               {project.title}
-            </h2>
+            </h3>
             <p className="text-gray-400 text-sm mb-3">
               {project.description}
             </p>
