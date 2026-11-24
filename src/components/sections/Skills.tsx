@@ -41,7 +41,7 @@ const Skills = () => {
                       border: "1px solid rgba(255, 255, 255, 0.8)",
                     }}
                   >
-                    <img src={item.image} alt={item.name} className="w-6 h-6" />
+                    <img loading="lazy" decoding="async" src={item.image} alt={item.name} className="w-6 h-6" />
                     {item.name}
                   </div>
                 ))}

@@ -51,7 +51,7 @@ const Projects = () => {
             key={project.id}
             className="bg-[#111928d4] border border-white/10 shadow-md rounded-2xl p-4 flex flex-col"
           >
-            <img
+            <img loading="lazy" decoding="async"
               src={project.image}
               alt={project.title}
               className="w-full h-48 object-cover rounded-xl mb-4"
