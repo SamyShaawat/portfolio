@@ -66,6 +66,7 @@ const Navbar: React.FC = () => {
     const section = document.getElementById(sectionId);
     if (section) {
       section.scrollIntoView({ behavior: "smooth" });
+      history.pushState(null, "", `#${sectionId}`);
     }
   };
 
