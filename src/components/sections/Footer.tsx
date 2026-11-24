@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Bio } from "../../data/constants";
+import { Bio, menuItems } from "../../data/constants";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/X";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -96,13 +96,13 @@ const Footer = () => {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Samy Mostafa</Logo>
+        <Logo>Samy Shaawat</Logo>
         <Nav>
-          <NavLink href="#About">About</NavLink>
-          <NavLink href="#Skills">Skills</NavLink>
-          <NavLink href="#Experience">Experience</NavLink>
-          <NavLink href="#Projects">Projects</NavLink>
-          <NavLink href="#Education">Education</NavLink>
+          {menuItems.map((item) => (
+            <NavLink key={item.id} href={`#${item.id}`}>
+              {item.label}
+            </NavLink>
+          ))}
         </Nav>
         <SocialMediaIcons>
           <SocialMediaIcon
@@ -157,7 +157,7 @@ const Footer = () => {
           </SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; {new Date().getFullYear()} Samy Mostafa. All rights reserved.
+          &copy; {new Date().getFullYear()} Samy Shaawat. All rights reserved.
         </Copyright>
       </FooterWrapper>
     </FooterContainer>
