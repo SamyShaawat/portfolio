@@ -628,5 +628,30 @@ export const menuItems = [
   { id: "skills", label: "Skills" },
   { id: "experience", label: "Experience" },
   { id: "projects", label: "Projects" },
+  { id: "research", label: "Research" },
   { id: "education", label: "Education" },
+];
+
+export const googleScholar =
+  "https://scholar.google.com/citations?user=jQpkdPwAAAAJ&hl=en";
+
+export const publications = [
+  {
+    title: "Network Analysis of the Egyptian Reddit Community",
+    venue:
+      "20th International Conference on Informatics in Control, Automation and Robotics (ICINCO 2023)",
+    date: "Nov 4, 2023",
+    description:
+      "This paper presents a network analysis of the Reddit community focused on Egypt. We collected and constructed a comprehensive dataset consisting of 23,185 users and 105 Egyptian subreddits, then analyzed its structure and dynamics through network analysis.",
+    link: "https://www.scitepress.org/PublicationsDetail.aspx?ID=wIc6do3deu0%3d&t=1",
+    github:
+      "https://github.com/SamyShaawat/Network-Analysis-of-the-Egyptian-Reddit-Community",
+    authors: [
+      { name: "Samy Mostafa", image: "/img/authors/samy.jpg", link: "https://www.linkedin.com/in/samyshaawat/" },
+      { name: "Mina Thabet", image: "/img/authors/mina.jpg", link: "https://www.linkedin.com/in/mina-thabet-0b325b200/" },
+      { name: "Adham Hammad", image: "/img/authors/adham.jpg", link: "https://www.linkedin.com/in/adhamhammad/" },
+      { name: "Kareem Farhat", image: "/img/authors/kareem.jpg", link: "https://www.linkedin.com/in/kareem-farhat-23640b207/" },
+      { name: "Walid Gomaa", image: "/img/authors/walid.jpg", link: "https://www.linkedin.com/in/walid-gomaa-40a45926/" },
+    ],
+  },
 ];
