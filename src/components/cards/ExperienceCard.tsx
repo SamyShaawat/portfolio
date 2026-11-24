@@ -19,7 +19,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience }) => {
   return (
     <VerticalTimelineElement
       icon={
-        <img
+        <img loading="lazy" decoding="async"
           src={experience.img}
           alt={experience.school}
           className="w-full h-full object-cover rounded-full"
@@ -43,7 +43,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience }) => {
     >
       {/* Top Section */}
       <div className="flex gap-3 w-full">
-        <img
+        <img loading="lazy" decoding="async"
           src={experience.img}
           alt=""
           className="h-[50px] rounded-[10px] mt-1 sm:h-[40px]"
