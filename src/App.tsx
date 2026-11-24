@@ -9,6 +9,7 @@ import Skills from "./components/sections/Skills.tsx";
 import Experience from "./components/sections/Experience.tsx";
 import Education from "./components/sections/Education.tsx";
 import Projects from "./components/sections/Projects.tsx";
+import Research from "./components/sections/Research.tsx";
 // import { useState } from "react";
 // Import the Project type (adjust the path as needed)
 // import type { Project } from "./data/constants.ts";
@@ -54,6 +55,7 @@ function App() {
                 <Experience />
               </Wrapper>
               <Projects />
+              <Research />
               <Wrapper>
                 <Education />
               </Wrapper>
