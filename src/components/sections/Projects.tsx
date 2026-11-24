@@ -81,14 +81,16 @@ const Projects = () => {
               >
                 GitHub
               </a>
-              <a
-                href={project.webapp}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-3 py-2 rounded bg-green-600 text-white text-sm font-medium hover:bg-green-700 transition"
-              >
-                Live Demo
-              </a>
+              {project.webapp && (
+                <a
+                  href={project.webapp}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-3 py-2 rounded bg-green-600 text-white text-sm font-medium hover:bg-green-700 transition"
+                >
+                  Live Demo
+                </a>
+              )}
             </div>
           </div>
         ))}

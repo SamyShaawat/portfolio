@@ -17,14 +17,11 @@ const Skills = () => {
         </p>
       </div>
 
-      <div className="w-full flex flex-wrap justify-center gap-[50px] mt-5">
+      <div className="w-full grid auto-rows-fr justify-center gap-[50px] mt-5 grid-cols-[repeat(auto-fit,minmax(min(100%,330px),500px))]">
         {skills.map((skill, index) => (
-          <Tilt
-            key={`skill-${index}`}
-            className="w-full max-w-[500px] md:max-w-[400px] sm:max-w-[330px]"
-          >
+          <Tilt key={`skill-${index}`} className="h-full">
             <div
-              className="rounded-2xl px-9 py-5 md:px-9 md:py-3 sm:px-9 sm:py-3"
+              className="h-full rounded-2xl px-9 py-5 md:px-9 md:py-3 sm:px-9 sm:py-3"
               style={{
                 backgroundColor: "rgba(17, 25, 40, 0.83)",
                 border: "1px solid rgba(255, 255, 255, 0.125)",

@@ -1,12 +1,3 @@
-import githubdetLogo from "../assets/work_logo/cm.png";
-import csprepLogo from "../assets/work_logo/cs_prep.png";
-import movierecLogo from "../assets/work_logo/movie_rec.png";
-import taskremLogo from "../assets/work_logo/task_rem.png";
-import npmLogo from "../assets/work_logo/npm.png";
-import webverLogo from "../assets/work_logo/web_dig.png";
-import cmLogo from "../assets/work_logo/cm.png";
-import imagesearchLogo from "../assets/work_logo/image_search.png";
-import removebgLogo from "../assets/work_logo/remove_bg.png";
 export interface Skill {
   name: string;
   image: string;
@@ -58,6 +49,7 @@ export interface BioType {
   resume: string;
   linkedin: string;
   twitter: string;
+  threads: string;
   insta: string;
   facebook: string;
   whatsapp: string;
@@ -67,19 +59,19 @@ export const Bio = {
   name: "Samy Mostafa",
   roles: [
     "Teaching Assistant at EJUST",
-    "Web Developer",
-    "Computer Engineer",
-    "Programmer",
+    "Odoo Developer",
+    "Software Engineer",
   ],
   description:
-    "I graduated from the Egypt-Japan University of Science and Technology (E-JUST) in Computer Science and Engineering (CSE) in 2024, passionate about technology and innovation. With experience in Software Engineering, Web Development, Machine Learning, and Research, I've worked on impactful projects. I am excited to contribute to the tech industry's advancement.",
+    "I graduated from the Egypt-Japan University of Science and Technology (E-JUST) in Computer Science and Engineering (CSE) in 2024. I work as a Teaching Assistant and Researcher at the university while developing Odoo-based business solutions and web applications, bridging academic knowledge with real-world software engineering.",
   github: "https://github.com/SamyShaawat",
   resume:
     "https://drive.google.com/file/d/1GgOxu1bm541_Ku9lUqDWfHPF9fRyq2o8/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/samyshaawat/",
-  twitter: "https://twitter.com/SamyShaawat",
-  insta: "https://www.instagram.com/samy_m0stafa/",
-  facebook: "https://www.facebook.com/SamyM0stafa",
+  twitter: "https://x.com/Samy_M0stafa",
+  threads: "https://www.threads.com/@samyshaawat",
+  insta: "https://www.instagram.com/samyshaawat/",
+  facebook: "https://www.facebook.com/samyshaawat/",
   whatsapp: "https://wa.me/201091539396",
   email: "mailto:samyshaawat@gmail.com",
 };
@@ -90,28 +82,32 @@ export const skills = [
     skills: [
       {
         name: "React Js",
-        image: "https://skillicons.dev/icons?i=react",
+        image: "/img/skills/react.svg",
       },
 
       {
         name: "HTML",
-        image: "https://skillicons.dev/icons?i=html",
+        image: "/img/skills/html.svg",
       },
       {
         name: "CSS",
-        image: "https://skillicons.dev/icons?i=css",
+        image: "/img/skills/css.svg",
       },
       {
         name: "JavaScript",
-        image: "https://skillicons.dev/icons?i=js",
+        image: "/img/skills/js.svg",
+      },
+      {
+        name: "TypeScript",
+        image: "/img/skills/typescript.svg",
       },
       {
         name: "Bootstrap",
-        image: "https://skillicons.dev/icons?i=bootstrap",
+        image: "/img/skills/bootstrap.svg",
       },
       {
         name: "Tailwind",
-        image: "https://skillicons.dev/icons?i=tailwind",
+        image: "/img/skills/tailwind.svg",
       },
     ],
   },
@@ -120,29 +116,49 @@ export const skills = [
     skills: [
       {
         name: "Node Js",
-        image: "https://skillicons.dev/icons?i=nodejs",
+        image: "/img/skills/nodejs.svg",
       },
       {
         name: "Express Js",
-        image: "https://skillicons.dev/icons?i=expressjs",
+        image: "/img/skills/expressjs.svg",
+      },
+      {
+        name: "NestJS",
+        image: "/img/skills/nestjs.svg",
       },
       {
         name: "Python",
-        image: "https://skillicons.dev/icons?i=python",
+        image: "/img/skills/python.svg",
       },
 
       {
         name: "MySQL",
-        image: "https://skillicons.dev/icons?i=mysql",
+        image: "/img/skills/mysql.svg",
+      },
+      {
+        name: "PostgreSQL",
+        image: "/img/skills/postgresql.svg",
+      },
+      {
+        name: "Prisma",
+        image: "/img/skills/prisma.svg",
+      },
+      {
+        name: "Odoo",
+        image: "/img/skills/odoo.svg",
+      },
+      {
+        name: "SQLite",
+        image: "/img/skills/sqlite.svg",
       },
 
       {
         name: "MongoDB",
-        image: "https://skillicons.dev/icons?i=mongodb",
+        image: "/img/skills/mongodb.svg",
       },
       {
         name: "Firebase",
-        image: "https://skillicons.dev/icons?i=firebase",
+        image: "/img/skills/firebase.svg",
       },
     ],
   },
@@ -152,27 +168,23 @@ export const skills = [
     skills: [
       {
         name: "Python",
-        image: "https://skillicons.dev/icons?i=python",
+        image: "/img/skills/python.svg",
       },
       {
         name: "TensorFlow",
-        image:
-          "https://static-00.iconduck.com/assets.00/tensorflow-icon-1911x2048-1m2s54vn.png",
+        image: "/img/skills/tensorflow.svg",
       },
       {
         name: "Keras",
-        image:
-          "https://miro.medium.com/v2/resize:fit:600/1*DKu_54iqz6C-p6ndo7rO3g.png",
+        image: "/img/skills/keras.svg",
       },
       {
         name: "Jupyter",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1767px-Jupyter_logo.svg.png",
+        image: "/img/skills/jupyter.svg",
       },
       {
         name: "Kaggle",
-        image:
-          "https://firebasestorage.googleapis.com/v0/b/portfolio-8e3af.appspot.com/o/kaggle2.png?alt=media&token=754d9f1e-9b06-45ce-af37-a9b1b3c223b8",
+        image: "/img/logos/kaggle2.png",
       },
       // {
       //   name: "Google Colab",
@@ -181,12 +193,15 @@ export const skills = [
       // },
       {
         name: "Sk Learn Kit",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/2560px-Scikit_learn_logo_small.svg.png",
+        image: "/img/skills/sklearn.svg",
+      },
+      {
+        name: "Pandas",
+        image: "/img/skills/pandas.svg",
       },
       {
         name: "PyTorch",
-        image: "https://skillicons.dev/icons?i=pytorch",
+        image: "/img/skills/pytorch.svg",
       },
     ],
   },
@@ -195,28 +210,36 @@ export const skills = [
     skills: [
       {
         name: "Git",
-        image: "https://skillicons.dev/icons?i=git",
+        image: "/img/skills/git.svg",
       },
       {
         name: "GitHub",
-        image: "https://skillicons.dev/icons?i=github",
+        image: "/img/skills/github.svg",
       },
 
       {
         name: "VS Code",
-        image: "https://skillicons.dev/icons?i=vscode",
+        image: "/img/skills/vscode.svg",
       },
       {
         name: "Postman",
-        image: "https://skillicons.dev/icons?i=postman",
+        image: "/img/skills/postman.svg",
+      },
+      {
+        name: "Linux",
+        image: "/img/skills/linux.svg",
       },
       {
         name: "C",
-        image: "https://skillicons.dev/icons?i=c",
+        image: "/img/skills/c.svg",
       },
       {
         name: "C++",
-        image: "https://skillicons.dev/icons?i=cpp",
+        image: "/img/skills/cpp.svg",
+      },
+      {
+        name: "LaTeX",
+        image: "/img/skills/latex.svg",
       },
     ],
   },
@@ -225,10 +248,73 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/portfolio-8e3af.appspot.com/o/ejust.png?alt=media&token=4cbd9858-4ac8-40dc-869b-bdce770125c0",
-    role: "Teaching Assistant",
+    img: "/img/logos/ejust.png",
+    role: "Teaching Assistant (Full-time)",
     company: "Egypt-Japan University of Science and Technology - E-JUST",
-    date: "Apr 2024 - Present",
+    date: "Oct 2025 - Present",
+    desc: "Full-time Teaching Assistant at E-JUST, supporting computer science courses by guiding students, running labs and tutorials, and grading assignments with personalized feedback.",
+    skills: ["Collaboration", "Communication", "Teaching", "Technical Support"],
+  },
+  {
+    id: 1,
+    img: "/img/logos/gamiviz.jpeg",
+    role: "Full Stack Engineer",
+    company: "Gamivize",
+    date: "Oct 2025 - Aug 2026",
+    desc: "Worked as a Full Stack Engineer at Gamivize, building and maintaining web application features across the frontend and backend.",
+    skills: ["Prisma", "NestJS", "TypeScript", "React Js", "PostgreSQL"],
+  },
+  {
+    id: 2,
+    img: "/img/logos/diwan.jpeg",
+    role: "Odoo Developer",
+    company: "Diwan for Scientific Solutions",
+    date: "Aug 2025 - Present",
+    desc: "Developing and customizing Odoo modules for business clients at Diwan for Scientific Solutions, after starting there as an Odoo Developer Intern.",
+    skills: ["Odoo", "Python", "OOP", "XML", "Odoo OWL"],
+  },
+  {
+    id: 3,
+    img: "/img/logos/diwan.jpeg",
+    role: "Odoo Developer Intern",
+    company: "Diwan for Scientific Solutions",
+    date: "Mar 2025 - Jul 2025",
+    desc: "Internship focused on Odoo development at Diwan for Scientific Solutions, which led to a full-time Odoo Developer role.",
+    skills: ["Odoo", "Python", "OOP", "XML", "Odoo OWL"],
+  },
+  {
+    id: 4,
+    img: "/img/logos/route.jpeg",
+    role: "Backend Developer Trainee",
+    company: "Route",
+    date: "Oct 2024 - Mar 2025",
+    desc: "Backend development training at Route, covering server-side programming, APIs and databases.",
+    skills: ["Backend Development", "Node Js", "Databases"],
+  },
+  {
+    id: 5,
+    img: "/img/logos/itida.jpeg",
+    role: "Cyber Security Trainee",
+    company: "ITIDA - Information Technology Industry Development Agency",
+    date: "Jul 2024 - Aug 2024",
+    desc: "Cyber security training program run by the Information Technology Industry Development Agency (ITIDA).",
+    skills: ["Cyber Security"],
+  },
+  {
+    id: 6,
+    img: "/img/logos/self-emplyed.jpeg",
+    role: "Web Developer",
+    company: "Freelancer - Self employed",
+    date: "Apr 2024 - Nov 2024",
+    desc: "Worked as a self-employed web developer, building websites and web applications for clients.",
+    skills: ["Web Development", "React Js", "JavaScript"],
+  },
+  {
+    id: 7,
+    img: "/img/logos/ejust.png",
+    role: "Teaching Assistant (Part-time)",
+    company: "Egypt-Japan University of Science and Technology - E-JUST",
+    date: "Apr 2024 - Sep 2025",
     desc: "In my part-time role as a Teaching Assistant (TA), I navigated the dynamic realm of computer science education with passion and purpose. Guiding students through intricate concepts, from debugging code to exploring algorithmic principles, I fostered an environment where learning thrived. Grading assignments was not just about assessment but about nurturing growth through personalized feedback, ensuring each student's journey was supported and enriched. As a TA, I embraced the opportunity to empower future tech leaders, one classroom session at a time.",
     skills: [
       "Collaboration",
@@ -239,11 +325,11 @@ export const experiences = [
   },
 
   {
-    id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/portfolio-8e3af.appspot.com/o/digital_egypt_pioneers_initiative_depi_logo.jpg?alt=media&token=b600eb04-7184-4b49-a2ae-5116fb79fb11",
-    role: "Generative AI Intern",
+    id: 8,
+    img: "/img/logos/digital_egypt_pioneers_initiative_depi_logo.jpg",
+    role: "Machine Learning Trainee",
     company: "Digital Egypt Pioneers Initiative - DEPI",
-    date: "Apr 2024 - Present",
+    date: "Apr 2024 - Oct 2024",
     desc: "In this training, I dove into machine learning, deep learning, and generative AI models. I learned to use tools like MLflow and Hugging Face for managing machine learning operations. Hands-on projects included building Generative Adversarial Networks (GANs) and working with attention models for natural language processing. It was a practical journey that deepened my understanding and skills in cutting-edge data science techniques.",
     skills: [
       "Generative Neural Networks",
@@ -256,8 +342,8 @@ export const experiences = [
     ],
   },
   {
-    id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/portfolio-8e3af.appspot.com/o/NTI.jpg?alt=media&token=99036be3-9737-44c4-8c27-902d50552eb7",
+    id: 9,
+    img: "/img/logos/NTI.jpg",
     role: "Frontend Developer Intern",
     company: "NTI - National Telecommunication Institute",
     date: "Oct 2023 - Nov 2023",
@@ -265,8 +351,8 @@ export const experiences = [
     skills: ["HTML", "CSS", "JavaScript", "Bootstrap"],
   },
   {
-    id: 3,
-    img: "https://firebasestorage.googleapis.com/v0/b/portfolio-8e3af.appspot.com/o/ALX.jpg?alt=media&token=4699135e-7825-4ac0-b0b8-b4e0e2567609",
+    id: 10,
+    img: "/img/logos/ALX.jpg",
     role: "Machine Learning Intern",
     company:
       "Summer Training at Alexandria University - Under Supervision of Prof. Marwan Torki",
@@ -283,11 +369,11 @@ export const experiences = [
     ],
   },
   {
-    id: 4,
-    img: "https://firebasestorage.googleapis.com/v0/b/portfolio-8e3af.appspot.com/o/smart_system_logo.jpg?alt=media&token=abdc8213-96bb-4658-bd43-35271621b738",
+    id: 11,
+    img: "/img/logos/smart_system_logo.jpg",
     role: "Software Engineer Intern",
     company: "Smart System - IT Company",
-    date: "Jul 2022 - Sep 2022",
+    date: "Jul 2022 - Oct 2022",
     desc: "During this internship, I gained hands-on expertise in designing Entity-Relationship Diagrams (ERD) using IBM Cognos Framework Manager, implementing IBM Maximo for Enterprise Asset Management (EAM), and crafting SQL-based queries with IBM Cognos Analytics 11.0. I contributed to the HCWW project by developing analytics reports that enhanced operational efficiencies and provided actionable insights, showcasing my ability to apply theoretical knowledge to real-world challenges in data management and analytics.",
     skills: [
       "IBM Cognos Analytics",
@@ -302,7 +388,17 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/portfolio-8e3af.appspot.com/o/ejust.png?alt=media&token=4cbd9858-4ac8-40dc-869b-bdce770125c0",
+    img: "/img/logos/ejust.png",
+    school:
+      "Egypt-Japan University of Science and Technology, Alexandria, Egypt",
+    date: "Sep 2025 - Present",
+    grade: " In progress",
+    desc: "Master's studies in Computer Science and Engineering at the Egypt-Japan University of Science and Technology (E-JUST).",
+    degree: "Master's degree, Computer Science and Engineering",
+  },
+  {
+    id: 1,
+    img: "/img/logos/ejust.png",
     school:
       "Egypt-Japan University of Science and Technology, Alexandria, Egypt",
     date: "Sep 2019 - Feb 2024",
@@ -311,8 +407,8 @@ export const education = [
     degree: "Bachelor of Sciences - B.Sc, Computer Science and Engineering",
   },
   {
-    id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/portfolio-8e3af.appspot.com/o/victory_college-removebg-preview.png?alt=media&token=12af3636-acca-424c-8ab7-275aac8c0d62",
+    id: 2,
+    img: "/img/logos/victory_college-removebg-preview.png",
     school: "Victoria College, Alexandria, Egypt",
     date: "Sep 2005 - Aug 2019",
     grade: " 93.9%",
@@ -332,121 +428,198 @@ export const TimeLineData = [
 
 export const projects = [
   {
-    id: 0,
-    title: "GitHub Profile Detective",
-    description:
-      "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions.",
-    image: githubdetLogo,
-    tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-    github:
-      "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-    webapp: "https://githubprofiledetective.netlify.app/",
-    date: "Jan 2024",
-    category: "Web App",
-  },
-  {
     id: 1,
-    title: "CS Prep",
+    title: "FlowDesk",
     description:
-      "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests.",
-    image: csprepLogo,
-    tags: [
-      "React JS",
-      "Node.js",
-      "MongoDB",
-      "Express",
-      "HTML",
-      "CSS",
-      "JavaScript",
-    ],
-    github: "https://github.com/codingmastr/CSPrep",
-    webapp: "https://csprep.netlify.app/",
-    date: "Feb 2024",
-    category: "EdTech",
+      "Custom Odoo 19 module built from real client needs. It covers business operations from lead to paid invoice across CRM, Sales, Purchase, Inventory, Accounting, HR, Helpdesk and Fleet.",
+    image: "/img/projects/flowdesk.png",
+    tags: ["Odoo 19", "Python", "XML", "OOP"],
+    github: "https://github.com/SamyShaawat/flowdesk",
+    webapp: "",
+    date: "Jul 2026",
+    category: "Odoo Modules",
   },
   {
     id: 2,
-    title: "Movie Recommendation App",
+    title: "Hospital Management System",
     description:
-      "A React-based web app that provides movie recommendations based on genres, user preferences, and popular trends.",
-    image: movierecLogo,
-    tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-    github: "https://github.com/codingmastr/Movie-Recommendation-App",
-    webapp: "https://movie-recommendation-app-jet.vercel.app/",
-    date: "Dec 2023",
-    category: "Entertainment",
+      "A custom Odoo module for managing hospital operations, including patient records, appointments, and medical history.",
+    image: "/img/projects/my_hospital.png",
+    tags: ["Odoo", "Python", "XML", "OOP"],
+    github: "https://github.com/SamyShaawat/my_hospital",
+    webapp: "",
+    date: "Aug 2025",
+    category: "Odoo Modules",
   },
   {
     id: 3,
-    title: "Email Validator NPM Package",
+    title: "CuraLink Dashboard",
     description:
-      "An efficient and customizable NPM package for validating email addresses, built using React.js and Node.js.",
-    image: npmLogo,
-    tags: ["React JS", "Node.js", "NPM", "Validation"],
-    github: "https://github.com/codingmastr/cmtk-email-validator",
-    webapp: "https://www.npmjs.com/package/cmtk-email-validator",
-    date: "Nov 2023",
-    category: "Developer Tools",
+      "A modern, responsive React application that provides a clean and intuitive interface for a healthcare network management system.",
+    image: "/img/projects/curalink.png",
+    tags: ["React JS", "TypeScript", "Dashboard"],
+    github: "https://github.com/SamyShaawat/curalink",
+    webapp: "https://samyshaawat.github.io/curalink/",
+    date: "Mar 2026",
+    category: "Web App",
   },
   {
     id: 4,
-    title: "Task Reminder Chrome Extension Tool",
+    title: "Class Tracker",
     description:
-      "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks.",
-    image: taskremLogo,
-    tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-    github: "https://github.com/codingmastr/Task-Reminder-Tool",
-    webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
-    date: "Oct 2023",
-    category: "Productivity",
+      "A simple and responsive Student List application built with React and TypeScript. Easily manage and display student records with a clean UI and modular code structure.",
+    image: "/img/projects/Class-Tracker.png",
+    tags: ["React JS", "TypeScript"],
+    github: "https://github.com/SamyShaawat/Class-Tracker",
+    webapp: "",
+    date: "May 2025",
+    category: "Web App",
   },
   {
     id: 5,
-    title: "Webverse Digital",
+    title: "BCME - Marine Electronics Platform",
     description:
-      "The official website for Webverse Digital, a creative digital marketing agency, featuring clean design and animations.",
-    image: webverLogo,
-    tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-    github: "https://github.com/codingmastr/Webverse-Digital",
-    webapp: "https://webversedigital.com/",
-    date: "Sep 2023",
+      "Platform for BC Marine Electronics Inc., providing GMDSS & NAVCOM services for the maritime industry, as required by ships' classification societies, recognized organizations, and flag states.",
+    image: "/img/projects/BCME.png",
+    tags: ["HTML", "CSS", "JavaScript"],
+    github: "https://github.com/SamyShaawat/BCME",
+    webapp: "https://www.img-bcme.com/",
+    date: "Mar 2024",
     category: "Company Website",
   },
   {
     id: 6,
-    title: "Coding Master",
+    title: "Nofa Egypt",
     description:
-      "An ed-tech platform offering tech blogs, notes, interview questions, and premium content with payment integration.",
-    image: cmLogo,
-    tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-    github: "https://codingmasterweb.in/",
-    webapp: "https://codingmasterweb.in/",
-    date: "Aug 2023",
-    category: "EdTech",
+      "Website for Nofa Egypt, a wood flooring company founded in 1950 in Downtown Alexandria that emphasizes the artistry of wood flooring.",
+    image: "/img/projects/Nofa-Egypt.png",
+    tags: ["JavaScript", "Web Development"],
+    github: "https://github.com/SamyShaawat/Nofa-Egypt",
+    webapp: "https://nofaegypt.rowad.com/",
+    date: "Jul 2024",
+    category: "Company Website",
   },
   {
     id: 7,
-    title: "Image Search App",
+    title: "URL Phishing Detection Using LLaMA-2",
     description:
-      "A React.js-based image search app that lets users find and download high-quality images from the web using APIs.",
-    image: imagesearchLogo,
-    tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-    github: "https://github.com/codingmastr/Image-Search-App",
-    webapp: "https://imagsearch.netlify.app/",
-    date: "Jul 2023",
-    category: "WEB APP'S",
+      "A URL phishing detection model built on Meta AI's LLaMA-2 large language model, identifying malicious links disguised as legitimate websites.",
+    image: "/img/projects/URL-Phishing-Detection-Using-LLaMA-2.png",
+    tags: ["Python", "LLaMA-2", "Machine Learning", "Jupyter"],
+    github:
+      "https://github.com/SamyShaawat/URL-Phishing-Detection-Using-LLaMA-2",
+    webapp: "",
+    date: "Dec 2023",
+    category: "Machine Learning",
   },
   {
     id: 8,
-    title: "Image Background Remover",
+    title: "Network Analysis of the Egyptian Reddit Community",
     description:
-      "An image processing app that allows users to remove image backgrounds and download transparent versions.",
-    image: removebgLogo,
-    tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-    github: "https://github.com/codingmastr/Image-Background-Remover",
-    webapp: "https://removeyourbg.netlify.app/",
-    date: "Jun 2023",
-    category: "WEB APP'S",
+      "Analyzes the network structure and dynamics of Reddit users who follow Egyptian subreddits, using a network built from 23,185 usernames and 105 subreddits.",
+    image:
+      "/img/projects/Network-Analysis-of-the-Egyptian-Reddit-Community.png",
+    tags: ["Python", "Network Analysis", "Data Science", "Jupyter"],
+    github:
+      "https://github.com/SamyShaawat/Network-Analysis-of-the-Egyptian-Reddit-Community",
+    webapp: "",
+    date: "May 2023",
+    category: "Machine Learning",
+  },
+  {
+    id: 9,
+    title: "Saraha - Anonymous Messaging",
+    description:
+      "An anonymous messaging platform for honest feedback and private communication. Full-stack Nx monorepo with NestJS, React, Prisma and PostgreSQL.",
+    image: "/img/projects/Saraha.png",
+    tags: ["NestJS", "React JS", "Prisma", "PostgreSQL", "Nx"],
+    github: "https://github.com/SamyShaawat/Saraha",
+    webapp: "",
+    date: "Apr 2026",
+    category: "Web App",
+  },
+  {
+    id: 10,
+    title: "Intertek Group Website",
+    description:
+      "Website for Intertek Group, built in an Nx workspace with TypeScript.",
+    image: "/img/projects/Intertek.png",
+    tags: ["TypeScript", "Nx", "React JS"],
+    github: "https://github.com/SamyShaawat/Intertek",
+    webapp: "https://intertekgroup.org/",
+    date: "Jun 2026",
+    category: "Company Website",
+  },
+  {
+    id: 11,
+    title: "Rowad for Software Development",
+    description:
+      "Website for Rowad Tech Company, which offers reliable and secure website hosting, development and deployment of responsive websites, and digital marketing strategies.",
+    image: "/img/projects/rowad-for-software-development.png",
+    tags: ["TypeScript", "Web Development"],
+    github: "https://github.com/SamyShaawat/rowad-for-software-development",
+    webapp: "https://rowad.com/",
+    date: "Jun 2024",
+    category: "Company Website",
+  },
+  {
+    id: 12,
+    title: "ClassCraft - Education Management",
+    description:
+      "An Odoo module for schools and training centers, covering enrollment to graduation in one place. Built from practice tasks written like real client requests.",
+    image: "/img/projects/classcraft.png",
+    tags: ["Odoo", "Python", "XML", "OOP"],
+    github: "https://github.com/SamyShaawat/classcraft",
+    webapp: "",
+    date: "Jul 2026",
+    category: "Odoo Modules",
+  },
+  {
+    id: 13,
+    title: "CarePulse - Clinic Management",
+    description:
+      "An Odoo module for clinics and hospitals, from patient to payment. Built from practice tasks written like real client requests.",
+    image: "/img/projects/carepulse.png",
+    tags: ["Odoo", "Python", "XML", "OOP"],
+    github: "https://github.com/SamyShaawat/carepulse",
+    webapp: "",
+    date: "Jul 2026",
+    category: "Odoo Modules",
+  },
+  {
+    id: 14,
+    title: "KeyNest - Real Estate Management",
+    description:
+      "An Odoo module for real estate agencies, from listing to closed deal. Built from practice tasks written like real client requests.",
+    image: "/img/projects/keynest.png",
+    tags: ["Odoo", "Python", "XML", "OOP"],
+    github: "https://github.com/SamyShaawat/keynest",
+    webapp: "",
+    date: "Jul 2026",
+    category: "Odoo Modules",
+  },
+  {
+    id: 15,
+    title: "Optical Shop Management System",
+    description: "An optical shop management system built with Python.",
+    image: "/img/projects/Optical-Shop-Management-System.png",
+    tags: ["Python"],
+    github: "https://github.com/SamyShaawat/Optical-Shop-Management-System",
+    webapp: "",
+    date: "Jun 2024",
+    category: "Desktop App",
+  },
+  {
+    id: 16,
+    title: "Pharmacy Management System",
+    description:
+      "A pharmacy management system built with Python and a Tkinter GUI.",
+    image: "/img/projects/Pharmacy-Management-System.png",
+    tags: ["Python", "Tkinter"],
+    github: "https://github.com/SamyShaawat/Pharmacy-Management-System",
+    webapp: "",
+    date: "Dec 2022",
+    category: "Desktop App",
   },
 ];
 
@@ -454,6 +627,31 @@ export const menuItems = [
   { id: "about", label: "About" },
   { id: "skills", label: "Skills" },
   { id: "experience", label: "Experience" },
-  // { id: "projects", label: "Projects" },
+  { id: "projects", label: "Projects" },
+  { id: "research", label: "Research" },
   { id: "education", label: "Education" },
+];
+
+export const googleScholar =
+  "https://scholar.google.com/citations?user=jQpkdPwAAAAJ&hl=en";
+
+export const publications = [
+  {
+    title: "Network Analysis of the Egyptian Reddit Community",
+    venue:
+      "20th International Conference on Informatics in Control, Automation and Robotics (ICINCO 2023)",
+    date: "Nov 4, 2023",
+    description:
+      "This paper presents a network analysis of the Reddit community focused on Egypt. We collected and constructed a comprehensive dataset consisting of 23,185 users and 105 Egyptian subreddits, then analyzed its structure and dynamics through network analysis.",
+    link: "https://www.scitepress.org/PublicationsDetail.aspx?ID=wIc6do3deu0%3d&t=1",
+    github:
+      "https://github.com/SamyShaawat/Network-Analysis-of-the-Egyptian-Reddit-Community",
+    authors: [
+      { name: "Samy Mostafa", image: "/img/authors/samy.jpg", link: "https://www.linkedin.com/in/samyshaawat/" },
+      { name: "Mina Thabet", image: "/img/authors/mina.jpg", link: "https://www.linkedin.com/in/mina-thabet-0b325b200/" },
+      { name: "Adham Hammad", image: "/img/authors/adham.jpg", link: "https://www.linkedin.com/in/adhamhammad/" },
+      { name: "Kareem Farhat", image: "/img/authors/kareem.jpg", link: "https://www.linkedin.com/in/kareem-farhat-23640b207/" },
+      { name: "Walid Gomaa", image: "/img/authors/walid.jpg", link: "https://www.linkedin.com/in/walid-gomaa-40a45926/" },
+    ],
+  },
 ];
