@@ -68,7 +68,7 @@ export const Bio = {
   resume:
     "https://drive.google.com/file/d/1GgOxu1bm541_Ku9lUqDWfHPF9fRyq2o8/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/samyshaawat/",
-  twitter: "https://x.com/Samy_M0stafa",
+  twitter: "https://x.com/Samy_Shaawat",
   threads: "https://www.threads.com/@samyshaawat",
   insta: "https://www.instagram.com/samyshaawat/",
   facebook: "https://www.facebook.com/samyshaawat/",
