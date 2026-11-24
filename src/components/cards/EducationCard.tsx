@@ -21,7 +21,7 @@ const EducationCard: React.FC<EducationCardProps> = ({ education }) => {
         <img loading="lazy" decoding="async"
           width="100%"
           height="100%"
-          alt={education.school}
+          alt={`${education.school} logo`}
           src={education.img}
           className="object-cover rounded-full"
         />
@@ -46,7 +46,7 @@ const EducationCard: React.FC<EducationCardProps> = ({ education }) => {
       <div className="flex gap-3 w-full">
         <img loading="lazy" decoding="async"
           src={education.img}
-          alt={education.school}
+          alt={`${education.school} logo`}
           className="h-[50px] sm:h-[40px] rounded-[10px] mt-1"
         />
         <div className="flex flex-col w-full">

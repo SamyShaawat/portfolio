@@ -106,6 +106,7 @@ const Footer = () => {
         </Nav>
         <SocialMediaIcons>
           <SocialMediaIcon
+aria-label="Email Samy Shaawat"
             href="https://mail.google.com/mail/?view=cm&fs=1&to=samyshaawat@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
@@ -114,6 +115,7 @@ const Footer = () => {
           </SocialMediaIcon>
 
           <SocialMediaIcon
+aria-label="Samy Shaawat on Facebook"
             href={Bio.facebook}
             target="_blank"
             rel="noopener noreferrer"
@@ -121,6 +123,7 @@ const Footer = () => {
             <FacebookIcon />
           </SocialMediaIcon>
           <SocialMediaIcon
+aria-label="Samy Shaawat on X"
             href={Bio.twitter}
             target="_blank"
             rel="noopener noreferrer"
@@ -128,6 +131,7 @@ const Footer = () => {
             <TwitterIcon />
           </SocialMediaIcon>
           <SocialMediaIcon
+aria-label="Samy Shaawat on Threads"
             href={Bio.threads}
             target="_blank"
             rel="noopener noreferrer"
@@ -135,6 +139,7 @@ const Footer = () => {
             <ThreadsIcon />
           </SocialMediaIcon>
           <SocialMediaIcon
+aria-label="Samy Shaawat on LinkedIn"
             href={Bio.linkedin}
             target="_blank"
             rel="noopener noreferrer"
@@ -142,6 +147,7 @@ const Footer = () => {
             <LinkedInIcon />
           </SocialMediaIcon>
           <SocialMediaIcon
+aria-label="Samy Shaawat on Instagram"
             href={Bio.insta}
             target="_blank"
             rel="noopener noreferrer"
@@ -149,6 +155,7 @@ const Footer = () => {
             <InstagramIcon />
           </SocialMediaIcon>
           <SocialMediaIcon
+aria-label="Chat with Samy Shaawat on WhatsApp"
             href={Bio.whatsapp}
             target="_blank"
             rel="noopener noreferrer"
