@@ -54,7 +54,7 @@ const Projects = () => {
             <img loading="lazy" decoding="async"
               src={project.image}
               alt={`${project.title} screenshot`}
-              className="w-full h-48 object-cover rounded-xl mb-4"
+              className="w-full h-48 object-cover object-top rounded-xl mb-4"
             />
             <h3 className="text-xl font-semibold text-white mb-2">
               {project.title}
