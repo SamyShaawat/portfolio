@@ -18,7 +18,7 @@ const EducationCard: React.FC<EducationCardProps> = ({ education }) => {
   return (
     <VerticalTimelineElement
       icon={
-        <img
+        <img loading="lazy" decoding="async"
           width="100%"
           height="100%"
           alt={education.school}
@@ -44,7 +44,7 @@ const EducationCard: React.FC<EducationCardProps> = ({ education }) => {
     >
       {/* Top Section */}
       <div className="flex gap-3 w-full">
-        <img
+        <img loading="lazy" decoding="async"
           src={education.img}
           alt={education.school}
           className="h-[50px] sm:h-[40px] rounded-[10px] mt-1"

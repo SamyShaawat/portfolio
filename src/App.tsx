@@ -3,13 +3,17 @@ import { BrowserRouter } from "react-router-dom";
 import Navbar from "./components/sections/Navbar.tsx";
 import { darkTheme } from "./utils/Themes.ts";
 import { AnimatePresence } from "framer-motion";
-import Footer from "./components/sections/Footer.tsx";
 import Hero from "./components/sections/Hero.tsx";
-import Skills from "./components/sections/Skills.tsx";
-import Experience from "./components/sections/Experience.tsx";
-import Education from "./components/sections/Education.tsx";
-import Projects from "./components/sections/Projects.tsx";
-import Research from "./components/sections/Research.tsx";
+import { lazy, Suspense } from "react";
+import SectionSkeleton from "./components/SectionSkeleton.tsx";
+
+// Below-the-fold sections load as separate chunks.
+const Skills = lazy(() => import("./components/sections/Skills.tsx"));
+const Experience = lazy(() => import("./components/sections/Experience.tsx"));
+const Education = lazy(() => import("./components/sections/Education.tsx"));
+const Projects = lazy(() => import("./components/sections/Projects.tsx"));
+const Research = lazy(() => import("./components/sections/Research.tsx"));
+const Footer = lazy(() => import("./components/sections/Footer.tsx"));
 // import { useState } from "react";
 // Import the Project type (adjust the path as needed)
 // import type { Project } from "./data/constants.ts";
@@ -51,17 +55,29 @@ function App() {
             <div>
               <Hero />
               <Wrapper>
+                <Suspense fallback={<SectionSkeleton />}>
                 <Skills />
+              </Suspense>
+                <Suspense fallback={<SectionSkeleton />}>
                 <Experience />
+              </Suspense>
               </Wrapper>
-              <Projects />
-              <Research />
+              <Suspense fallback={<SectionSkeleton />}>
+                <Projects />
+              </Suspense>
+              <Suspense fallback={<SectionSkeleton />}>
+                <Research />
+              </Suspense>
               <Wrapper>
+                <Suspense fallback={<SectionSkeleton />}>
                 <Education />
+              </Suspense>
               </Wrapper>
             </div>
           </AnimatePresence>
-          <Footer />
+          <Suspense fallback={null}>
+            <Footer />
+          </Suspense>
         </Body>
       </BrowserRouter>
     </ThemeProvider>

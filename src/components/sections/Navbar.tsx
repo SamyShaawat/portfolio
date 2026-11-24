@@ -43,12 +43,18 @@ const Navbar: React.FC = () => {
 
     observerRef.current = observer;
 
-    menuItems.forEach((item) => {
-      const section = document.getElementById(item.id);
-      if (section) observer.observe(section);
-    });
+    const observeSections = () =>
+      menuItems.forEach((item) => {
+        const section = document.getElementById(item.id);
+        if (section) observer.observe(section);
+      });
+    observeSections();
+    // Sections are lazy-loaded, so re-scan when they mount.
+    const mutations = new MutationObserver(observeSections);
+    mutations.observe(document.body, { childList: true, subtree: true });
 
     return () => {
+      mutations.disconnect();
       if (observerRef.current) {
         observerRef.current.disconnect();
       }
