@@ -432,7 +432,7 @@ export const projects = [
     title: "FlowDesk",
     description:
       "Custom Odoo 19 module built from real client needs. It covers business operations from lead to paid invoice across CRM, Sales, Purchase, Inventory, Accounting, HR, Helpdesk and Fleet.",
-    image: "/img/projects/flowdesk.png",
+    image: "/img/projects/live/flowdesk.webp",
     tags: ["Odoo 19", "Python", "XML", "OOP"],
     github: "https://github.com/SamyShaawat/flowdesk",
     webapp: "",
@@ -456,7 +456,7 @@ export const projects = [
     title: "CuraLink Dashboard",
     description:
       "A modern, responsive React application that provides a clean and intuitive interface for a healthcare network management system.",
-    image: "/img/projects/curalink.png",
+    image: "/img/projects/live/curalink.webp",
     tags: ["React JS", "TypeScript", "Dashboard"],
     github: "https://github.com/SamyShaawat/curalink",
     webapp: "https://samyshaawat.github.io/curalink/",
@@ -468,7 +468,7 @@ export const projects = [
     title: "Class Tracker",
     description:
       "A simple and responsive Student List application built with React and TypeScript. Easily manage and display student records with a clean UI and modular code structure.",
-    image: "/img/projects/Class-Tracker.png",
+    image: "/img/projects/live/class-tracker.webp",
     tags: ["React JS", "TypeScript"],
     github: "https://github.com/SamyShaawat/Class-Tracker",
     webapp: "",
@@ -480,7 +480,7 @@ export const projects = [
     title: "BCME - Marine Electronics Platform",
     description:
       "Platform for BC Marine Electronics Inc., providing GMDSS & NAVCOM services for the maritime industry, as required by ships' classification societies, recognized organizations, and flag states.",
-    image: "/img/projects/BCME.png",
+    image: "/img/projects/live/BCME.webp",
     tags: ["HTML", "CSS", "JavaScript"],
     github: "https://github.com/SamyShaawat/BCME",
     webapp: "https://www.img-bcme.com/",
@@ -518,7 +518,7 @@ export const projects = [
     description:
       "Analyzes the network structure and dynamics of Reddit users who follow Egyptian subreddits, using a network built from 23,185 usernames and 105 subreddits.",
     image:
-      "/img/projects/Network-Analysis-of-the-Egyptian-Reddit-Community.png",
+      "/img/projects/live/network.webp",
     tags: ["Python", "Network Analysis", "Data Science", "Jupyter"],
     github:
       "https://github.com/SamyShaawat/Network-Analysis-of-the-Egyptian-Reddit-Community",
@@ -531,7 +531,7 @@ export const projects = [
     title: "Saraha - Anonymous Messaging",
     description:
       "An anonymous messaging platform for honest feedback and private communication. Full-stack Nx monorepo with NestJS, React, Prisma and PostgreSQL.",
-    image: "/img/projects/Saraha.png",
+    image: "/img/projects/live/saraha.webp",
     tags: ["NestJS", "React JS", "Prisma", "PostgreSQL", "Nx"],
     github: "https://github.com/SamyShaawat/Saraha",
     webapp: "",
@@ -543,7 +543,7 @@ export const projects = [
     title: "Intertek Group Website",
     description:
       "Website for Intertek Group, built in an Nx workspace with TypeScript.",
-    image: "/img/projects/Intertek.png",
+    image: "/img/projects/live/Intertek.webp",
     tags: ["TypeScript", "Nx", "React JS"],
     github: "https://github.com/SamyShaawat/Intertek",
     webapp: "https://intertekgroup.org/",
@@ -555,7 +555,7 @@ export const projects = [
     title: "Rowad for Software Development",
     description:
       "Website for Rowad Tech Company, which offers reliable and secure website hosting, development and deployment of responsive websites, and digital marketing strategies.",
-    image: "/img/projects/rowad-for-software-development.png",
+    image: "/img/projects/live/rowad.webp",
     tags: ["TypeScript", "Web Development"],
     github: "https://github.com/SamyShaawat/rowad-for-software-development",
     webapp: "https://rowad.com/",
@@ -602,7 +602,7 @@ export const projects = [
     id: 15,
     title: "Optical Shop Management System",
     description: "An optical shop management system built with Python.",
-    image: "/img/projects/Optical-Shop-Management-System.png",
+    image: "/img/projects/live/optical.webp",
     tags: ["Python"],
     github: "https://github.com/SamyShaawat/Optical-Shop-Management-System",
     webapp: "",
@@ -614,7 +614,7 @@ export const projects = [
     title: "Pharmacy Management System",
     description:
       "A pharmacy management system built with Python and a Tkinter GUI.",
-    image: "/img/projects/Pharmacy-Management-System.png",
+    image: "/img/projects/live/pharmacy.webp",
     tags: ["Python", "Tkinter"],
     github: "https://github.com/SamyShaawat/Pharmacy-Management-System",
     webapp: "",
