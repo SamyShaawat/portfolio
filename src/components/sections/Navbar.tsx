@@ -77,7 +77,7 @@ const Navbar: React.FC = () => {
           <span className="text-[#8245ec]">&lt;</span>
           <span className="text-white">Samy</span>
           <span className="text-[#8245ec]">/</span>
-          <span className="text-white">Mostafa</span>
+          <span className="text-white">Shaawat</span>
           <span className="text-[#8245ec]">&gt;</span>
         </div>
 
