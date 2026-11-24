@@ -456,7 +456,7 @@ export const projects = [
     title: "CuraLink Dashboard",
     description:
       "A modern, responsive React application that provides a clean and intuitive interface for a healthcare network management system.",
-    image: "/img/projects/curalink.png",
+    image: "/img/projects/live/curalink.webp",
     tags: ["React JS", "TypeScript", "Dashboard"],
     github: "https://github.com/SamyShaawat/curalink",
     webapp: "https://samyshaawat.github.io/curalink/",
@@ -480,7 +480,7 @@ export const projects = [
     title: "BCME - Marine Electronics Platform",
     description:
       "Platform for BC Marine Electronics Inc., providing GMDSS & NAVCOM services for the maritime industry, as required by ships' classification societies, recognized organizations, and flag states.",
-    image: "/img/projects/BCME.png",
+    image: "/img/projects/live/BCME.webp",
     tags: ["HTML", "CSS", "JavaScript"],
     github: "https://github.com/SamyShaawat/BCME",
     webapp: "https://www.img-bcme.com/",
@@ -543,7 +543,7 @@ export const projects = [
     title: "Intertek Group Website",
     description:
       "Website for Intertek Group, built in an Nx workspace with TypeScript.",
-    image: "/img/projects/Intertek.png",
+    image: "/img/projects/live/Intertek.webp",
     tags: ["TypeScript", "Nx", "React JS"],
     github: "https://github.com/SamyShaawat/Intertek",
     webapp: "https://intertekgroup.org/",
@@ -555,7 +555,7 @@ export const projects = [
     title: "Rowad for Software Development",
     description:
       "Website for Rowad Tech Company, which offers reliable and secure website hosting, development and deployment of responsive websites, and digital marketing strategies.",
-    image: "/img/projects/rowad-for-software-development.png",
+    image: "/img/projects/live/rowad.webp",
     tags: ["TypeScript", "Web Development"],
     github: "https://github.com/SamyShaawat/rowad-for-software-development",
     webapp: "https://rowad.com/",
