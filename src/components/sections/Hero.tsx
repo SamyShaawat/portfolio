@@ -24,7 +24,7 @@ const HeroContainer = styled.div`
   }
 
   @media (max-width: 640px) {
-    padding: 32px 16px;
+    padding: 96px 16px 32px;
   }
 
   clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
@@ -107,9 +107,18 @@ const TextLoop = styled.div`
     line-height: 48px;
     margin-bottom: 16px;
   }
+
+  @media (max-width: 640px) {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    font-size: 20px;
+    line-height: 32px;
+  }
 `;
 
 const Span = styled.div`
+  white-space: nowrap;
   cursor: pointer;
   color: ${({ theme }) => theme.primary};
 `;
